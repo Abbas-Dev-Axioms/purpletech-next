@@ -1,0 +1,145 @@
+.ecomsolutions {
+  padding: 50px 0;
+  background-color: white;
+}
+
+.explore-btn.active {
+  background: linear-gradient(180deg, #651bae 10.71%, #000 126.79%);
+  color: white;
+  border: none;
+}
+
+.ecomsolutions .ecom-image {
+  object-fit: cover;
+  background: linear-gradient(180deg,
+      rgba(112, 79, 150, 0.7) 25.82%,
+      rgba(169, 215, 237, 0.7) 140.83%);
+  box-shadow: 0px 8px 8px 0px rgba(0, 0, 0, 0.25);
+}
+
+.ecom-Card {
+  position: relative;
+}
+
+.ecom-Card::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  /* background: linear-gradient(
+    180deg,
+    rgba(112, 79, 150, 0.7) 25.82%,
+    rgba(169, 215, 237, 0.7) 140.83%
+  ); */
+  background: linear-gradient(180deg,
+      rgba(112, 79, 150, 0.7) 25.82%,
+      rgba(169, 215, 237, 0.7) 140.83%);
+  transition: .3s ease-in-out;
+  /* opacity: 0.7; Adjust the opacity as needed */
+  z-index: 0;
+  /* Ensure the gradient is behind the image */
+}
+
+.ecom-Card .ecom-title {
+  font-size: 20px;
+  font-style: normal;
+  padding: 0px 10px;
+  font-weight: 700;
+  line-height: 30px;
+  text-align: center;
+  top: 75%;
+  transition: .3s ease-in-out;
+  left: 50%;
+  width: 100%;
+  transform: translate(-50%, 0);
+}
+
+.ecom-Card:hover::before {
+  background: linear-gradient(180deg,
+      rgba(112, 79, 150, 0.7) 25.82%,
+      rgba(169, 215, 237, 0.7) 140.83%);
+  opacity: 0.7;
+}
+
+.ecom-Card:hover .ecom-title {
+  top: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+}
+
+.ecom-Card .explore-btn.active {
+  /* display: none; */
+  bottom: -20px;
+  left: 50%;
+  transform: translateX(-55%);
+  opacity: 0;
+  transition: .5s ease-in-out;
+}
+
+.ecom-Card:hover .explore-btn.active {
+  opacity: 1;
+}
+
+.expore-button-container {
+  width: 100%;
+}
+
+.expore-button-container.button-center {
+  text-align: center;
+}
+
+.ecom-Card .explore-btn {
+  width: 130px;
+}
+.ecomsolutions .smallCard {
+  display: none !important;
+}
+.swiper-btn {
+  border: 0px;
+  background-color: transparent;
+}
+.swiper-btn .prev{
+  transform: scaleX(-1);
+}
+.ecom-swiper-card-container {
+  padding: 0 2rem;
+}
+@media (max-width:1400px) and (min-width: 991px) {
+  .ecom-Card .ecom-title {
+    font-size: 16px;
+    padding: 0px 10px;
+    line-height: 24px;
+  }
+}
+
+@media (max-width: 991px) {
+
+  .ecomsolutions .heading,
+  .ecomsolutions p {
+    text-align: center;
+  }
+
+  .ecom-Card .ecom-title {
+    font-size: 16px;
+    line-height: normal;
+  }
+}
+
+@media (max-width: 575px) {
+  .ecomsolutions .largeCard {
+    display: none;
+  }
+  .ecom-Card {
+    height: 300px;
+  }
+  .ecomsolutions .smallCard {
+    display: flex !important;
+  }
+}
+@media (max-width: 450px) {
+  .ecom-swiper-card-container {
+    padding: 0 0.5rem;
+  }
+}

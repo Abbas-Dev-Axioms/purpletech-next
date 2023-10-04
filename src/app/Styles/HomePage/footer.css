@@ -1,0 +1,84 @@
+.footer {
+  padding: 100px 0 50px;
+  background: url(/Images/footer-background.png), white;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.footer-section ul {
+  padding: 0;
+  list-style-type: none;
+}
+.footer-section ul li {
+  font-size: 14px;
+}
+.footer-section ul li a {
+  margin-bottom: 0.5rem;
+}
+.footer .grey-line {
+  width: 100%;
+  height: 2px;
+  margin: 8px 0;
+  background-color: #d9d9d9;
+}
+.bottom-footer h6 {
+  margin-bottom: 0px;
+}
+.copyright {
+  width: 100%;
+  color: white;
+}
+.copyrights {
+  background-color: #651bae;
+  height: 24px;
+}
+.copyrights p {
+  margin-bottom: 0px;
+}
+.bottom-footer {
+  display: flex;
+  justify-content: flex-end;
+  gap: 10px;
+}
+.footer p {
+  margin-bottom: 0px;
+}
+.bottom-footer p {
+  margin-bottom: 0px;
+  font-weight: 700;
+  color: #651bae;
+  cursor: pointer;
+}
+.bottom-footer a {
+  width: 50px;
+  height: 50px;
+  border-radius: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #53315e;
+  transition: .3s ease-in-out;
+  cursor: pointer;
+}
+.bottom-footer a img {
+  filter: brightness(0) invert(1);
+  transition: .3s ease-in-out;
+}
+.bottom-footer a:hover {
+  background-color: white;
+  transform: translateY(-10px);
+  box-shadow: 0px 6px 5px 0px rgba(0, 0, 0, 0.75);
+  -webkit-box-shadow: 0px 6px 5px 0px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: 0px 6px 5px 0px rgba(0, 0, 0, 0.75);
+}
+.bottom-footer a:hover img {
+  filter: unset;
+}
+.footer .copy-right {
+  color: #651bae;
+}
+@media (max-width: 575px) {
+    .bottom-footer {
+        justify-content: center;
+        margin-top: 2rem;
+    }
+}

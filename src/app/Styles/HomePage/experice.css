@@ -1,0 +1,19 @@
+.experice {
+    padding: 50px 0;
+    background-color: white;
+}
+.section-heading .heading {
+    font-weight: 700;
+    letter-spacing: -1.6px;
+    margin-bottom: 0px;
+}
+.section-heading .heading span{
+    color: #651BAE;
+}
+.play-btn {
+    width: 35%;
+    left: 52%;
+    top: 50%;
+    transform: translate(-55%,-55%);
+    cursor: pointer;
+}

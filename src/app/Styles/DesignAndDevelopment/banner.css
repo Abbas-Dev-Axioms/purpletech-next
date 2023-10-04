@@ -1,0 +1,75 @@
+.banner-logo {
+    padding: 100px 0 50px;
+    height: auto;
+    max-width: 930px;
+    position: relative;
+    margin: auto;
+  }
+  .banner-logo .main-heading {
+    color: #857dd4;
+    font-weight: 700;
+    letter-spacing: -3.357px;
+    font-size: 60px;
+    text-align: center;
+    position: relative;
+  }
+  .banner-logo .main-heading span {
+    color: #702bb4;
+  }
+  .banner-logo .main-heading::after {
+    content: "";
+    position: absolute;
+    width: 33%;
+    bottom: -10px;
+    left: 50%;
+    transform: translateX(-50%);
+    height: 3px;
+    background-color: #b28dd6;
+  }
+  .banner-logo .subTitles {
+    font-weight: 500;
+    color: #9ba1ae;
+  }
+  @media (max-width: 991px) {
+    .banner-logo .main-heading {
+      font-size: 44px;
+    }
+  }
+  .banner-logo .mouseImage {
+    background-position: center;
+    object-fit: none;
+    margin-top: 4rem;
+    animation: 3s updownanimation ease-in-out infinite;
+  }
+  .section1-logo-Container {
+    padding-bottom: 2rem;
+  }
+  @media (max-width: 991px) {
+    .call-btn {
+      bottom: 0px;
+    }
+    .white-circle { 
+      width: 40px;
+      height: 40px;
+    }
+    .call-btn h6 {
+      font-size: 14px;
+    }
+    .call-btn p { 
+      font-size: 12px;
+    }
+    .call-btn img {
+      height: 56px;
+    }
+  }
+  @keyframes updownanimation {
+    0% {
+      transform: translateY(0px);
+    }
+    50% {
+      transform: translateY(20px);
+    }
+    100% {
+      transform: translateY(0px);
+    }
+  }

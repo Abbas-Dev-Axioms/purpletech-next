@@ -1,0 +1,23 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+a {
+  color:unset;
+  text-decoration: none !important;
+}
+.grey-text {
+  color: #AEB3BD;
+}
+.color-heading-purple {
+  color: #6634B9;
+}
+.section-heading .heading {
+  font-weight: 700;
+  letter-spacing: -1.6px;
+  margin-bottom: 0px;
+}
+.section-heading .heading span {
+  color: #651BAE;
+}

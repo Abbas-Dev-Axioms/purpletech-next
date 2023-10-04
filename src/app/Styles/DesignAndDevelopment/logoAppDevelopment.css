@@ -1,0 +1,40 @@
+.logoAppDevelopment {
+  padding: 50px 0;
+  position: relative;
+}
+.app-type-container .app-heading {
+  color: #3e116b;
+  font-weight: 700;
+  font-size: 24px;
+}
+.app-type-container .app-heading.heading {
+    font-size: 30px;
+}
+.app-type-container .app-content .app-font-grey {
+  color: #aaaaaa;
+}
+.logoAppDevelopment .talent-container {
+    margin-top: 7rem;
+}
+.logoAppDevelopment .expertCard{
+    max-width: 232px;
+    background-color: #DACEED;
+    border-radius: 30px;
+    padding: 0 0 30px;
+    width: 100%;
+}
+.logoAppDevelopment .expertCard img {
+    padding-bottom: 1rem;
+    width: 100%;
+}
+.logoAppDevelopment .expertCard h6 {
+    color: #3E116B;
+    font-size: 24px;
+    font-weight: 700;
+}
+.logoAppDevelopment .expertCard p {
+    font-weight: 700;
+}
+.logoAppDevelopment .right-experts {
+    transform: translateY(50px);
+}

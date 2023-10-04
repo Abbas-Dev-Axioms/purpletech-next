@@ -1,0 +1,9 @@
+.logoWebDev {
+    padding: 50px 0;
+}
+.logoWebDev .color-heading-purple {
+  color: #3e116b;
+}
+.logoWebDev .explore-btn.active {
+    display:inline;
+}

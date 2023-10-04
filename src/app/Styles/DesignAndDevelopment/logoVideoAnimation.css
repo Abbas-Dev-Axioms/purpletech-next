@@ -1,0 +1,60 @@
+.logoVideoAnimation {
+    padding: 50px 0 100px;
+}
+.video-types {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 1.5rem;
+}
+.video-types .video-item {
+    padding: 15px 10px;
+    background-color: white;
+    border: 3px solid #ddd;
+    width: 180px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 7px;
+    color: #651BAE;
+    font-weight: 500;
+    transition: .3s ease-in-out;
+    cursor: pointer;
+}
+.video-types .video-item p{ 
+    margin: 0;
+}
+.video-types .video-item:hover {
+ background: #651BAE;
+ color: white;
+}
+.Video-content-container {
+    border-radius: 20px;
+    padding: 30px 10px;
+    color: #AAA;
+    font-weight: 500;
+    display: flex;
+    justify-content: center;
+background: linear-gradient(180deg, rgba(91, 24, 156, 0.10) 0%, rgba(91, 24, 156, 0.00) 92.71%);
+}
+.Video-content-container .content {
+    max-width: 75%;
+}
+.play-btn {
+    cursor: pointer;
+    left: 52%;
+    top: 50%;
+    -webkit-transform: translate(-55%,-55%);
+    transform: translate(-55%,-55%);
+    width: 35%;
+}
+@media (max-width: 767px) {
+    .logoVideoAnimation .video-types .video-item {
+        font-size: 14px;
+        width: 150px;
+    }
+    .logoVideoAnimation .video-types {
+        gap: 1rem;
+    }
+}

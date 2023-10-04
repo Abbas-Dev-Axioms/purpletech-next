@@ -1,0 +1,128 @@
+.home-banner {
+  padding: 100px 0 50px;
+  height: auto;
+  max-width: 1092px;
+  position: relative;
+  margin: auto;
+}
+.home-banner .main-heading {
+  color: #857dd4;
+  font-weight: 700;
+  letter-spacing: -3.357px;
+  font-size: 60px;
+  text-align: center;
+}
+.home-banner .main-heading span {
+  color: #702bb4;
+  position: relative;
+}
+.home-banner .main-heading span:first-child::after {
+  content: "";
+  position: absolute;
+  width: 60%;
+  bottom: 5px;
+  left: 25%;
+  height: 3px;
+  background-color: #b28dd6;
+}
+.home-banner .main-heading span:last-child::after {
+  content: "";
+  position: absolute;
+  width: 36%;
+  bottom: 5px;
+  left: 56%;
+  height: 3px;
+  background-color: #b28dd6;
+}
+.home-banner .subTitles {
+  font-weight: 500;
+  color: #9ba1ae;
+}
+.home-banner .socials {
+  margin-top: 3rem;
+  margin: auto;
+  display: inline-block;
+}
+.home-banner .socials p {
+  font-weight: 500;
+  font-size: 14px;
+  color: #9ba1ae;
+  text-align: center;
+  margin-bottom: 0.5rem;
+}
+@media (max-width: 991px) {
+  .home-banner .main-heading {
+    font-size: 44px;
+  }
+}
+.call-btn {
+  background-color: #702bb4;
+  color: white;
+  border-radius: 50px;
+  font-size: 14px;
+  padding-right: 10px;
+  right: 30px;
+  bottom: 30px;
+}
+.call-btn h6,
+.call-btn p {
+  margin-bottom: 0px;
+}
+.white-circle {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  background-color: white;
+}
+.section1-Container {
+  position: relative;
+  display: flex;
+}
+.home-banner .mouseImage {
+  background-position: center;
+  object-fit: none;
+  margin-top: 4rem;
+  animation: 3s updownanimation ease-in-out infinite;
+}
+.home-banner .banner-mouse {
+  position: absolute;
+  left: 25%;
+  bottom: 10%;
+}
+@keyframes updownanimation {
+  0% {
+    transform: translateY(0px);
+  }
+  50% {
+    transform: translateY(20px);
+  }
+  100% {
+    transform: translateY(0px);
+  }
+}
+@media (max-width: 991px) {
+  .call-btn {
+    bottom: 0px;
+  }
+  .white-circle {
+    width: 40px;
+    height: 40px;
+  }
+  .call-btn h6 {
+    font-size: 14px;
+  }
+  .call-btn p {
+    font-size: 12px;
+  }
+  .call-btn img {
+    height: 56px;
+  }
+}
+@media (max-width: 575px) {
+  .call-btn {
+    display: none !important;
+  }
+  #tsparticles {
+    display: none !important;
+  }
+}

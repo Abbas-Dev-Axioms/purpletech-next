@@ -1,0 +1,60 @@
+.what-we-do {
+    background-color: #F2F2F2;
+    padding: 50px 0 100px;
+}
+.underline-heading .heading {
+    position: relative;
+    font-weight: 700;
+    display: inline-block;
+}
+.underline-heading .heading::after {
+    content: "";
+    position: absolute;
+    width: 30%;
+    left: 50%;
+    bottom: -8px;
+    height: 3px;
+    transform: translate(-55%, -55%);
+    background-color: #6634B9;
+}
+.color-heading-purple {
+    color: #6634B9;
+}
+.grey-text {
+    color: #AEB3BD;
+}
+.what-we-do .purpose-container {
+    background: url(/Images/HomePage/What-we-do/luminsity\ 1.png), linear-gradient(180deg, #8346BE 0%, rgba(217, 217, 217, 0.00) 135.57%);
+    background-size: contain;
+    margin-top: 70px;
+} 
+.purpose-container .purpose-card {
+    background-color: white;
+    padding: 50px 20px 35px;
+    margin-bottom: 50px;
+    border-radius: 10px;
+    position: relative;
+    transform: translateY(-60px);
+}
+.purposeImage {
+    background-color: #6634B9;
+    display: inline-block;
+    border-radius: 50%;
+    padding: 10px;
+    position: absolute;
+    top: -35px;
+    left: 50%;
+    transform: translate(-55%, 0);
+}
+.purposeImage img{
+    width: 50px;
+}
+.purposeHeading {
+    font-weight: 700;
+    font-size: 20px;
+}
+.purpose-container .purpose-card p {
+    font-size: 14px;
+    text-align: center;
+    color: #BCC0C9;
+}

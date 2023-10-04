@@ -1,0 +1,42 @@
+.Form {
+  padding: 50px 0;
+  position: relative;
+  background-color: white;
+}
+.Form .main-form input, .textField-container textarea {
+  border: 3px solid #dfdede;
+  width: 100%;
+  margin-bottom: 0.5rem;
+  height: 2.5rem;
+  padding: 5px 5px 5px 10px;
+  font-size: 14px;
+}
+.Form .main-form input:focus-visible,.Form .textField-container textarea:focus-visible {
+  outline: none;
+}
+.Form .main-form input.submit-btn {
+    background-color: #651BAE;
+    font-weight: 500;
+    color: white;
+    border: none;
+}
+.Form .textField-container textarea {
+    height: 100%;
+    margin-bottom: 0px;
+    border-radius: 5px;
+    resize: none;
+}
+.Form .textField-container {
+    height: 100%;
+}
+.main-form .textField-container {
+    display: none;
+  }
+@media (max-width: 991px) {
+    .Form .textField-container.outside {
+        display: none;
+    }
+    .main-form .textField-container {
+        display: block;
+      }
+}
