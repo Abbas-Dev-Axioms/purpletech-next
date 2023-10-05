@@ -1,0 +1,35 @@
+.socialMediaMarketing {
+    padding: 50px 0;
+}
+.socialMediaMarketing .social-card h5 {
+    text-align: center;
+    font-weight: 700;
+    color: #3E116B;
+}
+.socialMediaMarketing .social-card .image-wrapper {
+    max-width: 130px;
+    max-height: 130px;
+    height: 130px;
+    border-radius: 50%;
+    width: 100%;
+    margin: auto;
+    background-color: #D0BBE6;
+    transition: .3s ease-in-out;
+}
+.socialMediaMarketing .social-card .image-wrapper img {
+    max-width: 100%;
+    height: auto;
+    scale: 1.6;
+    transform: translate(25px,-10px);
+}
+.gradient-content-container {
+    background: linear-gradient(180deg, rgba(91, 24, 156, 0.10) 0%, rgba(91, 24, 156, 0.00) 92.71%);
+    border-radius: 20px;
+    padding: 30px 10%;
+}
+.social-card {
+    padding: 20px 0;
+}
+.social-card:hover .image-wrapper {
+    background-color: #651BAE;
+}

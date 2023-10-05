@@ -168,7 +168,8 @@ function Banner() {
                 </div>
               </div>
             </div>
-            <div className="col-lg-4 d-flex justify-content-center banner-mouse">
+          </div>
+            <div className="d-flex justify-content-center banner-mouse">
               <img
                 src="/Images/mouse.png"
                 width="50px"
@@ -177,7 +178,6 @@ function Banner() {
                 alt=""
               />
             </div>
-          </div>
         </div>
       </div>
     </div>

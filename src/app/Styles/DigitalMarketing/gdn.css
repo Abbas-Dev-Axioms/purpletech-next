@@ -1,0 +1,53 @@
+.gdn {
+    padding: 50px 0;
+}
+
+.gdn .gdnCard.text {
+    border-radius: 15px;
+border: 1px solid #651BAE;
+background: #FFF;
+height: 100%;
+padding: 20px 15px 5px 20px;
+}
+.gdn .gdnCard:not(.text) {
+    position: relative;
+}
+.gdn .gdnCard:not(.text)::before {
+    position: absolute;
+    content: "";
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(0deg, rgba(101, 27, 174, 0.70) 0%, rgba(101, 27, 174, 0.70) 100%);
+    opacity: 0;
+    border-radius: 15px;
+    transition: .3s ease-in-out;
+}
+.gdn .gdnCard:not(.text):hover::before {
+    opacity: 1; 
+}
+.gdn .gdnCard h5 {
+    font-size: 1.5rem;
+    font-weight: 700;
+    color: #3E116B;
+}
+.gdn .gdnCard p {
+    color: #9BA1AE;
+font-size: 16px;
+font-style: normal;
+font-weight: 500;
+line-height: normal;
+}
+@media (max-width: 767px) {
+    .gdn .gdnCard img {
+        display: block;
+        margin: auto;
+    }
+    .gdn .gdnCard {
+        margin: auto;
+    }
+    .gdn .gdnCard.text { 
+        text-align: center;
+    }
+}

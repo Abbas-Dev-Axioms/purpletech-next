@@ -1,3 +1,8 @@
 .digital-intro {
     padding: 50px 0;
 }
+.digital-intro .service-heading h3.heading {
+    color: #3E116B;
+    font-size: 22px;
+    font-weight: 700;
+}

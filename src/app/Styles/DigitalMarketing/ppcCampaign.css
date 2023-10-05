@@ -1,0 +1,39 @@
+.ppc {
+  padding: 50px 0;
+}
+.ppc .section-heading {
+    margin-bottom: 5rem;
+}
+.ppc .ppc-slide {
+  padding: 30px 10%;
+  border-radius: 20px;
+  background: linear-gradient(
+    180deg,
+    rgba(91, 24, 156, 0.1) 0%, 
+    rgba(91, 24, 156, 0) 92.71%
+  );
+}
+.ppc .mouse-img {
+    position: absolute;
+    top: 60%;
+    right: -20px;
+}
+.ppc .mouse-img img {
+    width: 30px;
+}
+.ppc .mouse-img::after {
+    position: absolute;
+    content: "";
+    bottom: -40px;
+    left: 0px;
+    width: 30px;
+    height: 40px;
+    background: url(/Images/DigitalMarketing/ppcCamp/Vector.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    opacity: 0;
+    transition: .5s ease-in-out;
+}
+.ppc:hover .mouse-img::after {
+    opacity: 1;
+}

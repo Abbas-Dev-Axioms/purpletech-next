@@ -75,10 +75,10 @@ function EcomSolutions() {
               <a className="explore-btn active position-absolute">Learn More</a>
             </div>
           </div>
-          <div className="smallCard col-2 d-flex align-items-center justify-content-end">
+          <div className="smallCard col-1 d-flex align-items-center justify-content-end">
             <button className="swiper-btn" onClick={() => swiperRef.current?.slidePrev()}><img height="30px" className="prev" src="/Images/HomePage/EcomSolutions/slide 1.png"/></button>
           </div>
-          <div className="smallCard col-8">
+          <div className="smallCard col-10">
             <Swiper
               spaceBetween={30}
               slidesPerView={1}
@@ -131,7 +131,7 @@ function EcomSolutions() {
               </SwiperSlide>
             </Swiper>
           </div>
-          <div className="smallCard col-2 d-flex align-items-center">
+          <div className="smallCard col-1 d-flex align-items-center">
             <button className="swiper-btn" onClick={() => swiperRef.current?.slideNext()}><img height="30px" className="next" src="/Images/HomePage/EcomSolutions/slide 1.png"/></button>
           </div>
         </div>

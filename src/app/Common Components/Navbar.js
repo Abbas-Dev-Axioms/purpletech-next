@@ -1,18 +1,31 @@
-import React from "react";
+"use client";
+
 import "../Styles/navbar.css";
+import { useEffect } from "react";
 
 function Navbar() {
+  useEffect(() => {
+    require("bootstrap/dist/js/bootstrap.bundle.min.js");
+  }, []);
   return (
     <>
-    <div className="top-navbar"></div>
+      <div className="top-navbar"></div>
       <nav id="navbarBelow" className="navbar navbar-expand-lg py-3">
         <div className="container">
           <a className="navbar-brand" href="./">
-            <img src="/Images/HomePage/Navbar/logo.png"/>
+            <img src="/Images/HomePage/Navbar/logo.png" />
           </a>
-          <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
-                    <i className="fas fa-stream"></i>
-                </button>
+          <button
+            className="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarNavDropdown"
+            aria-controls="navbarNavDropdown"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <img src="/Images/menu-button.png" className="img-fluid" width="40px"/>
+          </button>
           <div
             className="collapse navbar-collapse  justify-content-center"
             id="navbarNavDropdown"
@@ -55,7 +68,11 @@ function Navbar() {
                   className="dropdown-menu"
                   aria-labelledby="navbarDropdownMenuLink"
                 >
-                 <li><a className="dropdown-item" href="#!">Web Development</a></li>
+                  <li>
+                    <a className="dropdown-item" href="#!">
+                      Web Development
+                    </a>
+                  </li>
                 </ul>
               </li>
               <li className="nav-item dropdown">
@@ -95,7 +112,11 @@ function Navbar() {
                   className="dropdown-menu"
                   aria-labelledby="navbarDropdownMenuLink"
                 >
-                 <li><a className="dropdown-item" href="#!">Web Development</a></li>
+                  <li>
+                    <a className="dropdown-item" href="#!">
+                      Web Development
+                    </a>
+                  </li>
                 </ul>
               </li>
               <li className="nav-item dropdown">
@@ -113,7 +134,11 @@ function Navbar() {
                   className="dropdown-menu"
                   aria-labelledby="navbarDropdownMenuLink"
                 >
-                 <li><a className="dropdown-item" href="#!">Web Development</a></li>
+                  <li>
+                    <a className="dropdown-item" href="#!">
+                      Web Development
+                    </a>
+                  </li>
                 </ul>
               </li>
               <li className="nav-item dropdown">
@@ -131,7 +156,11 @@ function Navbar() {
                   className="dropdown-menu"
                   aria-labelledby="navbarDropdownMenuLink"
                 >
-                 <li><a className="dropdown-item" href="#!">Web Development</a></li>
+                  <li>
+                    <a className="dropdown-item" href="#!">
+                      Web Development
+                    </a>
+                  </li>
                 </ul>
               </li>
               <li className="nav-item dropdown">
@@ -149,7 +178,11 @@ function Navbar() {
                   className="dropdown-menu"
                   aria-labelledby="navbarDropdownMenuLink"
                 >
-                 <li><a className="dropdown-item" href="#!">Web Development</a></li>
+                  <li>
+                    <a className="dropdown-item" href="#!">
+                      Web Development
+                    </a>
+                  </li>
                 </ul>
               </li>
             </ul>

@@ -70,7 +70,6 @@
 }
 
 .ecom-Card .explore-btn.active {
-  /* display: none; */
   bottom: -20px;
   left: 50%;
   transform: translateX(-55%);
