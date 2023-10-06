@@ -95,7 +95,7 @@ function Footer() {
               <h5 className="subtitles mb-4">Business Solution</h5>
               <ul>
                 <li>
-                  <a href="#!" className="grey-text">
+                  <a href="/businesssolution" className="grey-text">
                     White Labeling
                   </a>
                 </li>

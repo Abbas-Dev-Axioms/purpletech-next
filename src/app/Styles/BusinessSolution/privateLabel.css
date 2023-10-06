@@ -1,0 +1,11 @@
+.privateLabel {
+    padding: 50px 0;
+}
+.privateLabel .agency-card .sub-heading h3{
+    font-size: 24px;
+    font-weight: 700;
+    color: #3E116B;
+}
+.privateLabel img.grey {
+    filter: saturate(0);
+}

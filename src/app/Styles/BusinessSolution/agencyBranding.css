@@ -1,0 +1,19 @@
+.AgencyBranding {
+    padding: 50px 0;
+}
+.AgencyBranding .agency-card {
+    margin-bottom: 2rem;
+} 
+.AgencyBranding .agency-card .sub-heading h3{
+    font-size: 24px;
+    font-weight: 700;
+    color: #3E116B;
+}
+@media (max-width: 575px) {
+    .AgencyBranding .agency-card {
+        text-align: center;
+    }
+    .AgencyBranding .agency-card .sub-heading h3{
+        font-size: 22px;
+    }
+}

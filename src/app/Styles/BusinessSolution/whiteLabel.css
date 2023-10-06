@@ -1,7 +1,7 @@
-.amazon {
+.whiteLabel {
     padding: 50px 0;
 }
-.amazon .amazon-card .img-wrapper{
+.whiteLabel .amazon-card .img-wrapper{
     width: 90px;
     height: 90px;
     background-color: transparent;
@@ -11,13 +11,13 @@
     border-radius: 50%;
     transition: .3s ease-in-out;
 }
-.amazon .amazon-card:hover .img-wrapper {
+.whiteLabel .amazon-card:hover .img-wrapper {
     background-color: #DACEED;
 }
-.amazon .amazon-card .img-wrapper img {
+.whiteLabel .amazon-card .img-wrapper img {
     width: 60%;
 }
-.amazon .amazon-card .amazon-heading h3{
+.whiteLabel .amazon-card .amazon-heading h3{
     font-size: 24px;
     font-weight: 700;
     color: #3E116B;
