@@ -13,6 +13,7 @@ import ResourceOutsourcing from "./components/ResourceOutsourcing";
 import AgencyBranding from "./components/AgencyBranding";
 import AgencyStartup from "./components/AgencyStartup";
 import Privatelabel from "./components/Privatelabel";
+import CrmSales from "./components/crmSales";
 
 function DigitalMarketing() {
   return (
@@ -24,6 +25,7 @@ function DigitalMarketing() {
       <AgencyBranding />
       <AgencyStartup />
       <Privatelabel />
+      <CrmSales />
       <Businessprocess />
       <Customers />
       <Testimonials />

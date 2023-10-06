@@ -1,0 +1,17 @@
+.CrmSales {
+    padding: 50px 0;
+}
+.CrmSales .agency-card .sub-heading h3{
+    font-size: 24px;
+    font-weight: 700;
+    color: #3E116B;
+}
+.CrmSales .swiper-pagination-bullet-active {
+    background-color: #6434B0 !important;
+}
+@media (max-width: 575px) {
+.CrmSales img {
+    max-width: 300px;
+    margin-bottom: 1.5rem;
+}
+}

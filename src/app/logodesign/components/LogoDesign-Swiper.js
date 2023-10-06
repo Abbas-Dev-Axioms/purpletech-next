@@ -14,7 +14,7 @@ function LogoDesignSwiper() {
     <div className="LogoDesignSwiper position-relative bg-white">
       <div className="container">
         <div className="row justify-content-center">
-          <div className="col-lg-8 col-sm-8 position-reltive">
+          <div className="col-lg-8 col-sm-8 position-relative">
             <Swiper
               pagination={{ el: ".logoSwiper", clickable: true }}
               modules={[Pagination]}
