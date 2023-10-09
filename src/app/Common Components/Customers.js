@@ -24,7 +24,7 @@ function Customers() {
       </div>
       <div className="customer-card ">
         <div className="container">
-          <div className="row">
+          <div className="row shrink">
             <div className="col-12">
               <div className="py-4">
                 <Swiper

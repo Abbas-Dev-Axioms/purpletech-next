@@ -92,9 +92,9 @@
 .ecom-Card .explore-btn {
   width: 130px;
 }
-.ecomsolutions .smallCard {
+/* .ecomsolutions .smallCard {
   display: none !important;
-}
+} */
 .swiper-btn {
   border: 0px;
   background-color: transparent;
@@ -127,9 +127,9 @@
 }
 
 @media (max-width: 575px) {
-  .ecomsolutions .largeCard {
+  /* .ecomsolutions .largeCard {
     display: none;
-  }
+  } */
   .ecom-Card {
     height: 300px;
   }

@@ -5,7 +5,7 @@ function Form() {
     <div className="Form">
       <div className="container">
         <form>
-          <div className="row justify-content-center">
+          <div className="row justify-content-center shrink">
             <div className="col-12">
               <div className="section-heading mb-5">
                 <h2 className="heading mb-4 text-center">

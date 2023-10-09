@@ -1,4 +1,4 @@
-import React from "react";
+import "../../Styles/DesignAndDevelopment/sectionHeading.css";
 
 function SectionHeading() {
   return (
@@ -19,21 +19,58 @@ function SectionHeading() {
           </div>
         </div>
         <div className="row justify-content-center">
-            <div className="col-lg-3 col-md-4 col-6 mb-2">
-                <div className="logoDesigns">
-                    <img src="/Images/LogoDesign/logo2.png" className="img-fluid"/>
-                </div>
+          <div className="col-lg-3 col-md-4 col-12 mb-2">
+            <div class="flip">
+              <div
+                class="front"
+              >
+                <h5 class="text-shadow">Restruant</h5>
+              </div>
+              <div class="back"
+              style={{"background-image": "url(https://images.pexels.com/photos/540518/pexels-photo-540518.jpeg?w=1260&h=750&dpr=2&auto=compress&cs=tinysrgb)"}}
+              >
+              </div>
             </div>
-            <div className="col-lg-3 col-md-4 col-6 mb-2">
-                <div className="logoDesigns">
-                    <img src="/Images/LogoDesign/logo2.png" className="img-fluid"/>
-                </div>
+          </div>
+          <div className="col-lg-3 col-md-4 col-12 mb-2">
+            <div class="flip">
+              <div
+                class="front"
+              >
+                <h5 class="text-shadow">MOUNTAIN</h5>
+              </div>
+              <div class="back"
+              style={{"background-image": "url(https://images.pexels.com/photos/540518/pexels-photo-540518.jpeg?w=1260&h=750&dpr=2&auto=compress&cs=tinysrgb)"}}
+              >
+              </div>
             </div>
-            <div className="col-lg-3 col-md-4 col-6 mb-2">
-                <div className="logoDesigns">
-                    <img src="/Images/LogoDesign/logo2.png" className="img-fluid"/>
-                </div>
+          </div>
+          <div className="col-lg-3 col-md-4 col-12 mb-2">
+            <div class="flip">
+              <div
+                class="front"
+              >
+                <h5 class="text-shadow">MOUNTAIN</h5>
+              </div>
+              <div class="back"
+              style={{"background-image": "url(https://images.pexels.com/photos/540518/pexels-photo-540518.jpeg?w=1260&h=750&dpr=2&auto=compress&cs=tinysrgb)"}}
+              >
+              </div>
             </div>
+          </div>
+          <div className="col-lg-3 col-md-4 col-12 mb-2">
+            <div class="flip">
+              <div
+                class="front"
+              >
+                <h5 class="text-shadow">MOUNTAIN</h5>
+              </div>
+              <div class="back"
+              style={{"background-image": "url(https://images.pexels.com/photos/540518/pexels-photo-540518.jpeg?w=1260&h=750&dpr=2&auto=compress&cs=tinysrgb)"}}
+              >
+              </div>
+            </div>
+          </div>
         </div>
       </div>
     </div>

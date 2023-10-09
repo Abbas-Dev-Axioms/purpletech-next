@@ -1,12 +1,13 @@
 .newsletter {
   padding: 50px 0;
-  background:url(/Images/HomePage/NewLetter/envelopeImage.png), linear-gradient(
+  background: url(/Images/HomePage/NewLetter/envelopeImage.png),
+    linear-gradient(
       187deg,
       rgba(112, 38, 185, 0.9) 5.28%,
       rgba(112, 38, 185, 0) 103.62%
     );
-    background-size: cover;
-    background-position: center center;
+  background-size: cover;
+  background-position: center center;
 }
 .newsletterContainer {
   background-color: white;
@@ -29,4 +30,13 @@
   background-color: #651bae;
   border: 0px;
   color: white;
+}
+@media (max-width: 575px) {
+  .newsletter {
+    background: linear-gradient(
+      187deg,
+      rgba(112, 38, 185, 0.9) 5.28%,
+      rgba(112, 38, 185, 0) 103.62%
+    );
+  }
 }

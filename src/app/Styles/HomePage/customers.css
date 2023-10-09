@@ -6,3 +6,6 @@
 .customer-card {
   background-image: url(/Images/HomePage/Clients/bannerr\ 1.png);
 }
+.customers .customer-card .swiper-slide img {
+  filter: brightness(0) invert(1);
+}
