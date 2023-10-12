@@ -1,4 +1,4 @@
-import "../../Styles/WholeSaleBanner/WholeSaleSteps.css";
+import "../../Styles/WholeSaleBanner/wholeSaleSteps.css";
 
 function WholeSaleSteps() {
   return (
