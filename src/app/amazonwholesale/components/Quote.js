@@ -1,4 +1,4 @@
-import "../../Styles/wholeSaleBanner/quote.css";
+import "../../Styles/WholeSaleBanner/quote.css";
 
 function Quote() {
   return (
