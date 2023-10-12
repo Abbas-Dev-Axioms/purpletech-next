@@ -1,0 +1,84 @@
+.tiktokIntro {
+    padding: 50px 0;
+}
+.tiktokIntro .tiktokstepsContainer {
+    background: url(/Images/tiktokAutomation/TiktokSteps/stepsBackground.png);
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    padding: 25px 0;
+    background-position: center;
+}
+.tiktokstepsContainer  .tiktokstepCard:nth-child(odd) {
+    padding: 40px 15px 32px;
+}
+.tiktokstepsContainer  .tiktokstepCard:nth-child(odd) h6 {
+    margin-bottom: 1.2rem;
+}
+.tiktokstepsContainer  .tiktokstepCard:nth-child(even) .step-Number {
+    margin-bottom: 1rem;
+}
+.tiktokstepsContainer  .stepText {
+    color: #AAA;
+}
+.tiktokstepCard {
+    /* filter: drop-shadow(5px 9px 37px rgba(0, 0, 0, 0.25)); */
+    box-shadow: 5px 9px 37px rgba(0, 0, 0, 0.25);
+    text-align: center;
+    margin: 0px 20px;
+    /* padding-top: 24px; */
+    padding: 32px 15px;
+    border-radius: 129px;
+    /* background: red; */
+}
+.tikTokContent h6 {
+    color: #651BAE;
+    font-size: 20px;
+    font-weight: 800;
+}
+.step-Number {
+    margin: auto;
+    width: 50px;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color:#4F3277;
+    border-radius: 50%;
+    color: white;
+}
+.step-Number p {
+    margin-bottom: 0px;
+}
+.smallSteps {
+    display: none;
+}
+@media (max-width: 1200px) {
+    .tiktokstepsContainer .stepText {
+        color: #AAA;
+        font-size: 15px;
+    }
+    .tiktokstepCard {
+        margin: 0 10px;
+    }
+    .tiktokIntro .tiktokstepsContainer { 
+        padding: 10px 0;
+    }
+}
+@media (max-width: 991px) { 
+    .largeSteps {
+        display: none;
+    }
+    .smallSteps {
+        display: block !important;
+    }
+.tiktokstepsContainerSmall {
+    padding: 8px;
+    border: 1px solid #651BAE;
+    border-radius: 140px;
+    margin: auto;
+    max-width: 270px;
+}
+.tiktokstepCard {
+    margin: 5px 5px;
+}
+}

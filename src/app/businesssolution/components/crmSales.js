@@ -43,11 +43,11 @@ function CrmSales() {
                 <div className="row flex-sm-row flex-column-reverse">
                   <div className="col-xl-4 offset-xl-2 col-lg-4 col-md-5 col-sm-6 d-flex align-items-center">
                     <div className="agency-card">
-                      <div class="sub-heading mb-2">
+                      <div className="sub-heading mb-2">
                         <h3>lorem Ipsum</h3>
                       </div>
-                      <div class="content-text">
-                        <p class="grey-text">
+                      <div className="content-text">
+                        <p className="grey-text">
                           Lorem ipsum dolor sit amet consectetur. Aenean fames
                           arcu eget fermentum aliquam. Ac tempus feugiat odio
                           adipiscing arcu mi ac. Pellentesque vel tellus id
@@ -66,11 +66,11 @@ function CrmSales() {
                 <div className="row flex-sm-row flex-column-reverse">
                   <div className="col-xl-4 offset-xl-2 col-lg-4 col-md-5 col-sm-6 d-flex align-items-center">
                     <div className="agency-card">
-                      <div class="sub-heading mb-2">
+                      <div className="sub-heading mb-2">
                         <h3>lorem Ipsum</h3>
                       </div>
-                      <div class="content-text">
-                        <p class="grey-text">
+                      <div className="content-text">
+                        <p className="grey-text">
                           Lorem ipsum dolor sit amet consectetur. Aenean fames
                           arcu eget fermentum aliquam. Ac tempus feugiat odio
                           adipiscing arcu mi ac. Pellentesque vel tellus id
@@ -89,11 +89,11 @@ function CrmSales() {
                 <div className="row flex-sm-row flex-column-reverse">
                   <div className="col-xl-4 offset-xl-2 col-lg-4 col-md-5 col-sm-6 d-flex align-items-center">
                     <div className="agency-card">
-                      <div class="sub-heading mb-2">
+                      <div className="sub-heading mb-2">
                         <h3>lorem Ipsum</h3>
                       </div>
-                      <div class="content-text">
-                        <p class="grey-text">
+                      <div className="content-text">
+                        <p className="grey-text">
                           Lorem ipsum dolor sit amet consectetur. Aenean fames
                           arcu eget fermentum aliquam. Ac tempus feugiat odio
                           adipiscing arcu mi ac. Pellentesque vel tellus id
@@ -112,11 +112,11 @@ function CrmSales() {
                 <div className="row flex-sm-row flex-column-reverse">
                   <div className="col-xl-4 offset-xl-2 col-lg-4 col-md-5 col-sm-6 d-flex align-items-center">
                     <div className="agency-card">
-                      <div class="sub-heading mb-2">
+                      <div className="sub-heading mb-2">
                         <h3>lorem Ipsum</h3>
                       </div>
-                      <div class="content-text">
-                        <p class="grey-text">
+                      <div className="content-text">
+                        <p className="grey-text">
                           Lorem ipsum dolor sit amet consectetur. Aenean fames
                           arcu eget fermentum aliquam. Ac tempus feugiat odio
                           adipiscing arcu mi ac. Pellentesque vel tellus id

@@ -13,7 +13,7 @@ function GdnAdvertisement() {
               </h2>
             </div>
           </div>
-          <div className="col-xl-3 col-lg-3 col-md-6 mb-3">
+          <div className="col-xl-3 col-lg-3 col-md-6 mb-3 complexAnimationleft">
             <div className="gdnCard">
               <img
                 className="img-fluid"
@@ -21,7 +21,7 @@ function GdnAdvertisement() {
               />
             </div>
           </div>
-          <div className="col-xl-3 col-lg-3 col-md-6 mb-3">
+          <div className="col-xl-3 col-lg-3 col-md-6 mb-3 complexAnimation">
             <div className="gdnCard text">
               <h5>Lorem ipsum</h5>
               <p>
@@ -30,7 +30,7 @@ function GdnAdvertisement() {
               </p>
             </div>
           </div>
-          <div className="col-xl-3 col-lg-3 col-md-6 mb-3">
+          <div className="col-xl-3 col-lg-3 col-md-6 mb-3 complexAnimation">
             <div className="gdnCard">
               <img
                 className="img-fluid"
@@ -38,7 +38,7 @@ function GdnAdvertisement() {
               />
             </div>
           </div>
-          <div className="col-xl-3 col-lg-3 col-md-6 mb-3">
+          <div className="col-xl-3 col-lg-3 col-md-6 mb-3 complexAnimation">
             <div className="gdnCard text">
               <h5>Lorem ipsum</h5>
               <p>
@@ -47,7 +47,7 @@ function GdnAdvertisement() {
               </p>
             </div>
           </div>
-          <div className="col-xl-3 col-lg-3 col-md-6 mb-3">
+          <div className="col-xl-3 col-lg-3 col-md-6 mb-3 complexAnimation">
             <div className="gdnCard">
               <img
                 className="img-fluid"
@@ -55,7 +55,7 @@ function GdnAdvertisement() {
               />
             </div>
           </div>
-          <div className="col-xl-3 col-lg-3 col-md-6 mb-3">
+          <div className="col-xl-3 col-lg-3 col-md-6 mb-3 complexAnimation">
             <div className="gdnCard text">
               <h5>Lorem ipsum</h5>
               <p>
@@ -64,7 +64,7 @@ function GdnAdvertisement() {
               </p>
             </div>
           </div>
-          <div className="col-xl-3 col-lg-3 col-md-6 mb-3">
+          <div className="col-xl-3 col-lg-3 col-md-6 mb-3 complexAnimation">
             <div className="gdnCard">
               <img
                 className="img-fluid"
@@ -72,7 +72,7 @@ function GdnAdvertisement() {
               />
             </div>
           </div>
-          <div className="col-xl-3 col-lg-3 col-md-6 mb-3">
+          <div className="col-xl-3 col-lg-3 col-md-6 mb-3 complexAnimation">
             <div className="gdnCard text">
               <h5>Lorem ipsum</h5>
               <p>

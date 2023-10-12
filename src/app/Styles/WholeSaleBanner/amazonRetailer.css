@@ -1,0 +1,40 @@
+.amazonRetailer .swiper-slide {
+    display: flex;
+    align-items: flex-end;
+    transform: scale3d(0.6, 0.6, 1) !important; /* Default scale for non-active slides */
+    transition: transform 0.3s ease-in-out;
+}
+
+.amazonRetailer .swiper-slide.swiper-slide-next,
+.amazonRetailer .swiper-slide.swiper-slide-prev {
+    transform: scale3d(0.8, 0.8, 1) !important; /* Scale for slides next to active */
+}
+/* .amazonRetailer .swiper-slide {
+
+} */
+
+.amazonRetailer .swiper-slide.swiper-slide-active {
+    transform: scale3d(1, 1, 1) !important; /* Active slide at its original scale */
+    transition: transform 0.3s ease-in-out;
+}
+
+.amazonretailer {
+    text-align: center;
+}
+
+.swiper-pagination-bullet-active { 
+    background: #651BAE !important;
+}
+@media (max-width: 767px) {
+    .amazonRetailer .swiper-slide {
+        justify-content: center;
+    }
+}
+.agency-card .sub-heading h3{
+    font-weight: 600;
+    color: #000;
+    
+}
+.agency-card .sub-heading span{
+    color: #651BAE;
+}

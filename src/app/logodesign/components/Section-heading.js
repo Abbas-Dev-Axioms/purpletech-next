@@ -20,52 +20,52 @@ function SectionHeading() {
         </div>
         <div className="row justify-content-center">
           <div className="col-lg-3 col-md-4 col-12 mb-2">
-            <div class="flip">
+            <div className="flip">
               <div
-                class="front"
+                className="front"
               >
-                <h5 class="text-shadow">Restruant</h5>
+                <h5 className="text-shadow">Restruant</h5>
               </div>
-              <div class="back"
+              <div className="back"
               style={{"background-image": "url(https://images.pexels.com/photos/540518/pexels-photo-540518.jpeg?w=1260&h=750&dpr=2&auto=compress&cs=tinysrgb)"}}
               >
               </div>
             </div>
           </div>
           <div className="col-lg-3 col-md-4 col-12 mb-2">
-            <div class="flip">
+            <div className="flip">
               <div
-                class="front"
+                className="front"
               >
-                <h5 class="text-shadow">MOUNTAIN</h5>
+                <h5 className="text-shadow">MOUNTAIN</h5>
               </div>
-              <div class="back"
+              <div className="back"
               style={{"background-image": "url(https://images.pexels.com/photos/540518/pexels-photo-540518.jpeg?w=1260&h=750&dpr=2&auto=compress&cs=tinysrgb)"}}
               >
               </div>
             </div>
           </div>
           <div className="col-lg-3 col-md-4 col-12 mb-2">
-            <div class="flip">
+            <div className="flip">
               <div
-                class="front"
+                className="front"
               >
-                <h5 class="text-shadow">MOUNTAIN</h5>
+                <h5 className="text-shadow">MOUNTAIN</h5>
               </div>
-              <div class="back"
+              <div className="back"
               style={{"background-image": "url(https://images.pexels.com/photos/540518/pexels-photo-540518.jpeg?w=1260&h=750&dpr=2&auto=compress&cs=tinysrgb)"}}
               >
               </div>
             </div>
           </div>
           <div className="col-lg-3 col-md-4 col-12 mb-2">
-            <div class="flip">
+            <div className="flip">
               <div
-                class="front"
+                className="front"
               >
-                <h5 class="text-shadow">MOUNTAIN</h5>
+                <h5 className="text-shadow">MOUNTAIN</h5>
               </div>
-              <div class="back"
+              <div className="back"
               style={{"background-image": "url(https://images.pexels.com/photos/540518/pexels-photo-540518.jpeg?w=1260&h=750&dpr=2&auto=compress&cs=tinysrgb)"}}
               >
               </div>

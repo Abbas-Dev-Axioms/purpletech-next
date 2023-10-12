@@ -117,7 +117,7 @@ function EcomSolutions() {
                     <h6 className="position-absolute ecom-title">
                       Amazon Wholesale FBA
                     </h6>
-                    <a className="explore-btn active position-absolute">
+                    <a className="explore-btn active position-absolute" href="/shopifydropshiping">
                       Learn More
                     </a>
                   </div>
@@ -135,7 +135,7 @@ function EcomSolutions() {
                     <h6 className="position-absolute ecom-title">
                       Amazon Wholesale FBA
                     </h6>
-                    <a className="explore-btn active position-absolute">
+                    <a className="explore-btn active position-absolute" href="/amazonwholesale">
                       Learn More
                     </a>
                   </div>
@@ -153,7 +153,7 @@ function EcomSolutions() {
                     <h6 className="position-absolute ecom-title">
                       Amazon Wholesale FBA
                     </h6>
-                    <a className="explore-btn active position-absolute">
+                    <a className="explore-btn active position-absolute" href="/tiktokautomation">
                       Learn More
                     </a>
                   </div>
@@ -171,7 +171,7 @@ function EcomSolutions() {
                     <h6 className="position-absolute ecom-title">
                       Amazon Wholesale FBA
                     </h6>
-                    <a className="explore-btn active position-absolute">
+                    <a className="explore-btn active position-absolute" href="/youtubeautomation">
                       Learn More
                     </a>
                   </div>

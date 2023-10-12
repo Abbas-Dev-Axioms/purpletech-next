@@ -1,0 +1,88 @@
+.WholeSaleStep {
+  padding: 50px 0;
+}
+.stepsCard {
+  display: flex;
+  justify-content: space-between;
+  background: url(/Images/AmazonWholeSale/wholeSaleIntro/stepsImage.png);
+  background-repeat: no-repeat;
+  background-size: contain;
+  text-align: center;
+  gap: 20px;
+  padding: 38px 10px 66px;
+}
+.WholeSaleStep .stepsItem {
+  width: 20%;
+  padding: 10px 14px;
+}
+.WholeSaleStep .stepsItem p {
+  font-size: 14px;
+}
+.card-content h6 {
+  font-size: 20px;
+  font-weight: 600;
+  color: #651bae;
+}
+.smallSteps {
+  display: none;
+}
+@media (max-width: 1400px) {
+  .stepsCard {
+    padding: 14px 10px 0px;
+  }
+  .WholeSaleStep .stepsItem {
+    padding: 10px 18px;
+  }
+}
+@media (max-width: 1200px) {
+  .stepsCard {
+    padding: 10px 0px 15px;
+  }
+  .WholeSaleStep .stepsItem {
+    padding: 5px 8px;
+  }
+  .card-content h6 {
+    font-size: 16px;
+  }
+  .WholeSaleStep .stepsItem p {
+    font-size: 12px;
+  }
+}
+@media (max-width: 991px) {
+  .WholeSaleStep .largeSteps {
+    display: none;
+  }
+  .WholeSaleStep .smallSteps {
+    display: block;
+  }
+  .WholeSaleStep .smallSteps .stepsItem {
+    background: url(/Images/AmazonWholeSale/wholeSaleIntro/stepsCircle.png);
+    background-size: contain;
+    width: 100%;
+    background-repeat: no-repeat;
+    padding: 35px 20px;
+    text-align: center;
+  }
+  .card-content h6 {
+    font-size: 20px;
+  }
+}
+@media (max-width: 767px) {
+  .WholeSaleStep .smallSteps .stepsItem {
+    background-position: center;
+    padding: 35px 30px;
+    margin-bottom: 1rem;
+  }
+  .WholeSaleStep .stepsItem p {
+    font-size: 14px;
+  }
+}
+@media (max-width: 576px) {
+  .WholeSaleStep .smallSteps .stepsItem {
+    background-position: center;
+    padding: 35px 30px;
+    max-width: 250px;
+    margin: auto;
+    margin-bottom: 1rem;
+  }
+}

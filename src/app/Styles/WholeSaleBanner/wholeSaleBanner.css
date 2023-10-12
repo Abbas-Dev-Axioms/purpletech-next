@@ -1,0 +1,51 @@
+.main-heading-underline {
+  color: #000;
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  position: relative;
+  margin-bottom: 2rem;
+}
+.main-heading-underline span {
+  color: #651bae;
+}
+.main-heading-underline::after {
+  position: absolute;
+  content: "";
+  bottom: -16px;
+  left: 0px;
+  width: 40%;
+  height: 5px;
+  background: #651bae;
+}
+.wholeSaleBanner {
+  padding: 50px 0;
+}
+
+.consult-btn {
+  padding: 10px 20px;
+  background: #461378;
+  box-shadow: 0px 11px 7px 0px rgba(0, 0, 0, 0.25);
+  border-radius: 7px;
+  border: 0px;
+  color: white;
+  font-weight: 600;
+}
+@media (max-width: 767px) {
+  .main-heading-underline {
+    font-size: 24px;
+    text-align: center;
+  }
+  .wholeSaleBanner {
+    text-align: center;
+  }
+  .wholeSaleBanner .main-heading-underline::after {
+    left: 50%;
+    transform: translateX(-55%);
+  }
+  .consult-btn {
+    padding: 6px 12px;
+    font-size: 14px;
+  }
+}

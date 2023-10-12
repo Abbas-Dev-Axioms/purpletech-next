@@ -1,0 +1,22 @@
+.TikTokAutomationType {
+    padding: 100px 0 50px;
+}
+.tikTok-type-card h3 {
+    font-size: 24px;
+    font-weight: 700;
+    color: #3E116B;
+}
+.TikTokAutomationType .tikTok-type-card .img-wrapper img {
+    width: 60px;
+}
+.TikTokAutomationType .smallCard button {
+    border: 0px;
+    background-color: transparent;
+}
+.TikTokAutomationType .smallCard button .prev {
+    transform: rotate(180deg);
+}
+.TikTokAutomationType .imageWrapper {
+    display: flex;
+    justify-content: center;
+}

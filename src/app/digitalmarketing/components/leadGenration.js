@@ -34,9 +34,9 @@ function LeadGenration() {
             />
           </div>
           <div className="col-lg-7 col-md-7 col-sm-10 mb-5">
-            <div class="tab-content" id="ex1-content">
+            <div className="tab-content" id="ex1-content">
               <div
-                class="tab-pane fade show active"
+                className="tab-pane fade show active"
                 id="ex1-tabs-1"
                 role="tabpanel"
                 aria-labelledby="ex1-tab-1"
@@ -55,7 +55,7 @@ function LeadGenration() {
                 </div>
               </div>
               <div
-                class="tab-pane fade"
+                className="tab-pane fade"
                 id="ex1-tabs-2"
                 role="tabpanel"
                 aria-labelledby="ex1-tab-2"
@@ -74,7 +74,7 @@ function LeadGenration() {
                 </div>
               </div>
               <div
-                class="tab-pane fade"
+                className="tab-pane fade"
                 id="ex1-tabs-3"
                 role="tabpanel"
                 aria-labelledby="ex1-tab-3"
@@ -107,7 +107,7 @@ function LeadGenration() {
                 </button>
               </div>
               <div className="smallCard col-10">
-                <ul class="nav nav-tabs mb-3" id="ex1" role="tablist">
+                <ul className="nav nav-tabs mb-3" id="ex1" role="tablist">
                   <Swiper
                     spaceBetween={30}
                     slidesPerView={2}
@@ -117,9 +117,9 @@ function LeadGenration() {
                     className="mySwiper"
                   >
                     <SwiperSlide>
-                      <li class="nav-item" role="presentation">
+                      <li className="nav-item" role="presentation">
                         <a
-                          class="nav-link active"
+                          className="nav-link active"
                           id="ex1-tab-1"
                           data-bs-toggle="tab"
                           href="#ex1-tabs-1"
@@ -136,9 +136,9 @@ function LeadGenration() {
                       </li>
                     </SwiperSlide>
                     <SwiperSlide>
-                      <li class="nav-item" role="presentation">
+                      <li className="nav-item" role="presentation">
                         <a
-                          class="nav-link"
+                          className="nav-link"
                           id="ex1-tab-2"
                           data-bs-toggle="tab"
                           href="#ex1-tabs-2"
@@ -155,9 +155,9 @@ function LeadGenration() {
                       </li>
                     </SwiperSlide>
                     <SwiperSlide>
-                      <li class="nav-item" role="presentation">
+                      <li className="nav-item" role="presentation">
                         <a
-                          class="nav-link"
+                          className="nav-link"
                           id="ex1-tab-3"
                           data-bs-toggle="tab"
                           href="#ex1-tabs-3"

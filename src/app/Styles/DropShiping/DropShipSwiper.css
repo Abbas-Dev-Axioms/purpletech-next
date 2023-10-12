@@ -1,0 +1,57 @@
+.dropshipSwiper {
+    padding: 50px 0 0;
+}
+.swiperBanner {
+    background: url(/Images/DropShipping/DropshipSwiper/dropshipBackground.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: left;    
+    padding: 50px 0;
+}
+.SubContent h2 {
+    color: white;
+    font-weight: 800;
+    margin-bottom: 1.5rem;
+}
+.SubContent p { 
+    color: white;
+    margin-bottom: 1.5rem;
+}
+.white-btn {
+    border: 0px;
+    background-color: white;
+    padding: 10px 15px;
+    font-weight: 700;
+    color: #551792;
+    border-radius: 7px;
+}
+.swiper-content  {
+    padding: 50px 30px;
+    border-radius: 30px;
+    background-color: white;
+    transition: .3s ease-in-out;
+}
+.swiperBanner .nav-tabs .nav-link.active {
+    background-color: transparent;
+}
+.swiperBanner .swiper-content  h5 {
+    color: #651BAE;
+    font-weight: 800;
+} 
+.swiperBanner .swiper-content  p {
+    color: #7533B3;
+    font-weight: 500;
+    margin-top: 1rem;
+}
+.dropShipSwiperPagination .swiper-pagination-bullet-active {
+    background-color: #6A23B0;
+}
+.dropShipSwiperPagination .swiper-pagination-bullet {
+    width: 15px;
+    height: 15px;
+}
+/* CACFE4 */
+.swiper-content:hover {
+    background-color: #CACFE4;
+    
+}

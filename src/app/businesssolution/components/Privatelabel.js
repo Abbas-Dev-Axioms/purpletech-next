@@ -17,11 +17,11 @@ function Privatelabel() {
         <div className="row flex-column-reverse flex-md-row align-items-center">
           <div className="col-lg-4 offset-lg-1 col-md-7 d-flex align-items-center">
             <div className="agency-card">
-              <div class="sub-heading mb-2">
+              <div className="sub-heading mb-2">
                 <h3>lorem Ipsum</h3>
               </div>
-              <div class="content-text">
-                <p class="grey-text">
+              <div className="content-text">
+                <p className="grey-text">
                   Lorem ipsum dolor sit amet consectetur. Aenean fames arcu eget
                   fermentum aliquam. Ac tempus feugiat odio adipiscing arcu mi
                   ac. Pellentesque vel tellus id ipsum metus elit et rhoncus
@@ -46,11 +46,11 @@ function Privatelabel() {
           </div>
           <div className="col-lg-4 col-md-7 d-flex align-items-center">
             <div className="agency-card">
-              <div class="sub-heading mb-2">
+              <div className="sub-heading mb-2">
                 <h3>lorem Ipsum</h3>
               </div>
-              <div class="content-text">
-                <p class="grey-text">
+              <div className="content-text">
+                <p className="grey-text">
                   Lorem ipsum dolor sit amet consectetur. Aenean fames arcu eget
                   fermentum aliquam. Ac tempus feugiat odio adipiscing arcu mi
                   ac. Pellentesque vel tellus id ipsum metus elit et rhoncus
