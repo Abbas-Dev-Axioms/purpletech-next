@@ -1,0 +1,41 @@
+.youtubeBanner {
+  padding: 70px 0;
+  background: url(/Images/YoutubeAutomation/YoutubeBanner/background.png);
+  color: White;
+  background-position: center center;
+  background-size: cover;
+}
+.youtubeTabs .smallCard .nav.nav-tabs {
+    flex-direction: column;
+}
+.youtubeTabs .smallCard .nav.nav-tabs .lead-services {
+    text-align: left !important;
+    background-color: white;
+   padding-left: 2rem;
+   position: relative;
+}
+.youtubeTabs .smallCard .nav.nav-tabs .lead-services::before {
+    top: 50%;
+    transform: translateY(-55%);
+    left: 10px;
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    background-color: #B6B1B1;
+    content: "";
+    position: absolute;
+}
+.youtubeTabs .smallCard .nav-link.active .lead-services::before {
+    background-color: #651BAE;
+    scale: 1.2;
+}
+.youtubeTabs .smallCard .nav.nav-tabs .lead-services .swiper-text {
+    color: #aaaaaa;
+    font-size: 16px;
+    font-weight: 600;
+    margin-bottom: 0px;
+}
+.youtubeTabs .smallCard .nav-link.active .lead-services .swiper-text {
+    color: #651BAE;
+    font-weight: 800;
+}

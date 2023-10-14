@@ -33,48 +33,6 @@ function EcomSolutions() {
               </div>
             </div>
           </div>
-          {/* <div className="largeCard col-xxl-2 offset-xxl-1 col-xl-2 offset-xl-1 col-lg-3 col-sm-4 mb-5">
-            <div className="ecom-Card">
-              <img
-                src="/Images/HomePage/EcomSolutions/Amazon Wholesale 1.png"
-                className="ecom-image"
-                width="100%"
-                height="100%"
-              />
-              <h6 className="position-absolute ecom-title">
-                Amazon Wholesale FBA
-              </h6>
-              <a className="explore-btn active position-absolute">Learn More</a>
-            </div>
-          </div>
-          <div className="largeCard col-xxl-2 col-xl-2 col-lg-3 col-sm-4 mb-5">
-            <div className="ecom-Card">
-              <img
-                src="/Images/HomePage/EcomSolutions/Shopify Droppshipping 1.png"
-                className="ecom-image"
-                width="100%"
-                height="100%"
-              />
-              <h6 className="position-absolute ecom-title">
-                Amazon Wholesale FBA
-              </h6>
-              <a className="explore-btn active position-absolute">Learn More</a>
-            </div>
-          </div>
-          <div className="largeCard col-xxl-2 col-xl-2 col-lg-3 col-sm-4 mb-5">
-            <div className="ecom-Card">
-              <img
-                src="/Images/HomePage/EcomSolutions/Facebbok-Market-place 1.png"
-                className="ecom-image"
-                width="100%"
-                height="100%"
-              />
-              <h6 className="position-absolute ecom-title">
-                Amazon Wholesale FBA
-              </h6>
-              <a className="explore-btn active position-absolute">Learn More</a>
-            </div>
-          </div> */}
           <div className="col-xxl-9 col-xl-9">
           <div className="row">
           <div className="smallCard col-1 d-flex align-items-center justify-content-end">
@@ -95,11 +53,6 @@ function EcomSolutions() {
                   slidesPerView: 3,
                 },
               }}
-              // autoplay={{
-              //   delay: 2500,
-              //   disableOnInteraction: false,
-              // }}
-              // modules={[Autoplay]}
               onBeforeInit={(swiper) => {
                 swiperRef.current = swiper;
               }}

@@ -1,0 +1,56 @@
+.YoutubeSteps {
+    padding: 50px 0;
+}
+.smallSteps {
+    display: none;
+}
+.largeSteps .stepsCard {
+    background: url(/Images/YoutubeAutomation/YoutubeSteps/youtubeStepBg.png);
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    padding: 18px 20px;
+    background-position: center;
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+}
+.largeSteps .stepsCard .stepsItem {
+    box-shadow: 5px 9px 37px rgba(0, 0, 0, 0.25);
+    border-radius: 40px;
+    text-align: center;
+    padding: 16px 8px;
+}
+.largeSteps .stepsCard .stepsItem .step-counter {
+    background-color: #4F3277;
+    width: 40px;
+    height: 40px;
+    margin: auto;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: .5rem;
+}
+.largeSteps .stepsCard .stepsItem .step-counter p { 
+    margin-bottom: 0px;
+    color: white;
+    font-weight: 700;
+}
+.largeSteps .stepsCard .stepsItem .card-content h6 {
+    font-weight: 700;
+    color: #651BAE;
+}
+.largeSteps .stepsCard .stepsItem .card-content p {
+    margin-bottom: 0px;
+    color: #858282;
+}
+.stepsCard .stepsItem:nth-child(odd) {
+    background-color: #A7B0D1;
+}
+.stepsCard .stepsItem:nth-child(odd) p {
+    color: white !important;
+}
+.YoutubeSteps .swiper-content {
+    background: linear-gradient(180deg, rgba(91, 24, 156, 0.1) 0%, rgba(91, 24, 156, 0) 92.71%);
+    border: 1px solid red;
+}

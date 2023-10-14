@@ -1,0 +1,31 @@
+.youtube-service {
+    background: url(/Images/YoutubeAutomation/YoutubeServices/serviceBackground.png);
+    padding: 50px 0;
+    background-size: cover;
+
+}
+.youtube-service .youtube-service-card {
+    max-width: 300px;
+    background-color: white;
+    margin: auto;
+    box-shadow: 12px 15px 41px 0px rgba(0, 0, 0, 0.25);
+    border-radius: 30px;
+    text-align: center;
+    padding: 20px 10px;
+    margin-bottom: 2rem;
+    color: #651BAE;
+    transition: .3s ease-in-out;
+}
+.youtube-service .youtube-service-card p{
+    color: #7533B3;
+}
+.youtube-service .youtube-service-card:hover {
+    background-color: #712DB3;
+    color: white;
+}
+.youtube-service .youtube-service-card:hover img {
+    filter: brightness(0) invert(1);
+}
+.youtube-service .youtube-service-card:hover p {
+    color: white;
+}

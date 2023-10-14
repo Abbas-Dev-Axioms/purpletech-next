@@ -4,14 +4,14 @@
   margin: 0;
 }
 a {
-  color:unset;
+  color: unset;
   text-decoration: none !important;
 }
 .grey-text {
-  color: #AEB3BD;
+  color: #aeb3bd;
 }
 .color-heading-purple {
-  color: #6634B9;
+  color: #6634b9;
 }
 .section-heading .heading {
   font-weight: 700;
@@ -20,7 +20,7 @@ a {
   color: #000;
 }
 .section-heading .heading span {
-  color: #651BAE;
+  color: #651bae;
 }
 .explore-btn {
   margin: auto;
@@ -39,6 +39,14 @@ a {
   background: linear-gradient(180deg, #651bae 10.71%, #000 126.79%);
   color: white;
   border: none;
+}
+.white-btn {
+  border: 0px;
+  background-color: white;
+  padding: 10px 15px;
+  font-weight: 700;
+  color: #551792;
+  border-radius: 7px;
 }
 @media (min-width: 991px) {
   .shrink {

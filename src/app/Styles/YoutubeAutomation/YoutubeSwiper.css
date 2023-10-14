@@ -1,0 +1,78 @@
+.youtubeSwiper {
+  padding: 50px 0;
+}
+.youtubeSwiper .swiper-slide:not(.swiper-slide-active) {
+  filter: blur(3px);
+}
+.youtubeSwiper .smallCard .swiper-btn {
+  background-color: transparent;
+  border: 0px;
+}
+.youtubeSwiper .smallCard .swiper-btn .prev {
+  transform: rotate(180deg);
+}
+.youtubeSwiper .swiper-content {
+  background: linear-gradient(
+    180deg,
+    rgba(91, 24, 156, 0.1) 0%,
+    rgba(91, 24, 156, 0) 92.71%
+  );
+  padding: 30px 10%;
+  border-radius: 20px;
+  position: relative;
+  margin-bottom: 40px;
+}
+.youtubeSwiper .swiper-content .explore-btn {
+  position: absolute;
+  bottom: -20px;
+  left: 50%;
+  transform: translateX(-55%);
+  z-index: 1;
+}
+.youtubeSwiper .ecom-swiper-card-container {
+  position: relative;
+}
+.youtubeSwiper .ecom-swiper-card-container img {
+  border-radius: 20px;
+}
+.youtubeSwiper .ecom-swiper-card-container::before {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  content: "";
+  box-shadow: 5px 21px 21px 0px rgba(0, 0, 0, 0.25);
+  border-radius: 20px;
+}
+.youtubeSwiper .ecom-swiper-card-container:hover::before {
+  background: linear-gradient(
+    180deg,
+    #651bae 0%,
+    rgba(255, 255, 255, 0) 147.53%
+  );
+}
+.youtubeSwiper
+  .swiper-slide.swiper-slide-active
+  .ecom-swiper-card-container::before {
+  background: linear-gradient(
+    180deg,
+    #651bae 0%,
+    rgba(255, 255, 255, 0) 147.53%
+  );
+}
+.youtubeSwiper .ecom-swiper-card-container .content {
+  position: absolute;
+  bottom: 0px;
+  color: white;
+  left: 50%;
+  transform: translateX(-50%);
+  text-align: center;
+  width: 100%;
+}
+.youtubeSwiper .ecom-swiper-card-container .content p {
+  margin-bottom: 0px;
+}
+.youtubeSwiper .swiper-slide:not(.swiper-slide-active) .content {
+  display: none;
+}
