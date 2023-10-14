@@ -22,7 +22,7 @@ function DigitalMarketing() {
       <Navbar />
       <WholeSaleBanner />
       {/* <Banner heading="TikTok Automation"/>  */}
-      <YoutubeSteps />
+      {/* <YoutubeSteps /> */}
       <YoutubeSwiper />
       <YoutubeTabs />
       <YoutubeAutomation />
