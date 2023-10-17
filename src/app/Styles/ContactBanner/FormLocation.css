@@ -1,0 +1,38 @@
+.FormLocation {
+    padding: 80px 0 10px;
+}
+.FormLocation .location-card .location-icon {
+  background-color: #6634b9;
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  top: -40px;
+  left: 50%;
+  transform: translateX(-55%);
+}
+.FormLocation .location-card .location-icon img {
+  width: 50px;
+  height: 50px;
+  object-fit: contain;
+}
+.FormLocation .location-card {
+  border-radius: 15px;
+  background: #f5f4f4;
+  box-shadow: 0px 18px 34px 0px rgba(0, 0, 0, 0.25);
+    padding: 60px 20px 30px;
+    text-align: center;
+    position: relative;
+    font-size: 14px;
+    margin-bottom: 4rem;
+}
+@media (min-width: 991px) {
+    .FormLocation {
+        background: url(/Images/Contactus/bannerr\ 3.png);
+        background-repeat: no-repeat;
+        background-position: center;
+    }
+}

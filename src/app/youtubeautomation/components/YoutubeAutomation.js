@@ -44,7 +44,7 @@ function YoutubeAutomationType() {
                       </p>
                     </div>
                   </div>
-                  <div className="col-lg-4 offset-lg-2 col-md-6 col-sm-8 offset-sm-2">
+                  <div className="col-lg-4 offset-lg-2 col-md-6 offset-md-0 col-sm-8 offset-sm-2">
                     <img
                       className="img-fluid"
                       src="/Images/YoutubeAutomation/YoutubeType/img1.png"
@@ -72,7 +72,7 @@ function YoutubeAutomationType() {
                       </p>
                     </div>
                   </div>
-                  <div className="col-lg-4 offset-lg-2 col-md-6 col-sm-8 offset-sm-2">
+                  <div className="col-lg-4 offset-lg-2 col-md-6 offset-md-0 col-sm-8 offset-sm-2">
                     <img
                       className="img-fluid"
                       src="/Images/YoutubeAutomation/YoutubeType/img1.png"
@@ -100,7 +100,7 @@ function YoutubeAutomationType() {
                       </p>
                     </div>
                   </div>
-                  <div className="col-lg-4 offset-lg-2 col-md-6 col-sm-8 offset-sm-2">
+                  <div className="col-lg-4 offset-lg-2 col-md-6 offset-md-0 col-sm-8 offset-sm-2">
                     <img
                       className="img-fluid"
                       src="/Images/YoutubeAutomation/YoutubeType/img1.png"

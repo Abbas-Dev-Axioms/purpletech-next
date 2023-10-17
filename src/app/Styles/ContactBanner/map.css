@@ -1,0 +1,85 @@
+.map {
+  padding: 50px 0;
+}
+.map .mapContainer {
+  position: relative;
+}
+.map-icon {
+  position: absolute;
+  cursor: pointer;
+}
+.map-icon img {
+  height: 70px;
+}
+.pakistan {
+  left: 63%;
+  top: 36%;
+}
+.usa {
+  left: 14%;
+  top: 32%;
+}
+.uae {
+  top: 40%;
+  left: 58%;
+}
+.china {
+  left: 74%;
+  top: 34%;
+}
+.location-container {
+  width: 0px;
+  height: 60px;
+  background-color: #cacfe4;
+  text-align: center;
+  margin-bottom: 0rem;
+  transform: translateX(-39%);
+  border-radius: 10px;
+  position: relative;
+  z-index: 1;
+  color: #000;
+  font-weight: 600;
+  word-spacing: 0.2px;
+  padding: 0px;
+  font-size: 14px;
+  opacity: 0;
+  max-height: 0px;
+  /* transition: max-height 0.5s ease-in-out, opacity 0.5s ease-in-out; */
+  transition: 0.5s ease-in-out;
+}
+.location-container p {
+  margin-bottom: 0px;
+}
+.map-icon:hover .location-container {
+  opacity: 1;
+  max-height: 60px;
+  padding: 6px;
+  margin-bottom: 0.5rem;
+  width: 150px;
+}
+@media (max-width: 767px) {
+  .uae {
+    display: none;
+  }
+  .china {
+    display: none;
+  }
+  .pakistan {
+    left: 62%;
+    top: 27%;
+  }
+  .usa {
+    left: 14%;
+    top: 24%;
+  }
+}
+@media (max-width: 450px) {
+    .pakistan {
+        left: 60%;
+        top: 21%;
+    }
+    .usa {
+        left: 14%;
+        top: 16%;
+    }
+}

@@ -1,0 +1,96 @@
+.contactBanner {
+  background: url(/Images/Contactus/BannerBackground.png);
+  background-position: center;
+  background-size: cover;
+  margin-bottom: 7rem;
+  padding-bottom: 2rem;
+}
+.contactBanner .form-container {
+  max-width: 400px;
+  border-radius: 25px;
+  border: 2px solid #651bae;
+  background: linear-gradient(
+    180deg,
+    #651bae 0.18%,
+    rgba(217, 217, 217, 0) 142.68%
+  );
+  padding: 30px;
+  text-align: center;
+  transform: translateY(120px);
+}
+.contactBanner .form-container h2 {
+  font-size: 32px;
+  color: white;
+  font-weight: 600;
+  text-align: center;
+  margin-bottom: 1.5rem;
+}
+.contactBanner .form-container input[type="text"],
+.contactBanner .form-container textarea {
+  background: transparent;
+  border: 1px solid white;
+  width: 100%;
+  padding: 10px 20px;
+  border-radius: 50px;
+  margin-bottom: 1rem;
+}
+.contactBanner .form-container textarea {
+  border-radius: 20px;
+  margin-bottom: .5rem;
+}
+.contactBanner .form-container input::placeholder,
+.contactBanner .form-container textarea::placeholder {
+  color: white;
+  opacity: 0.5;
+}
+.contactBanner .form-container input[type="submit"] {
+  color: white;
+  border-radius: 7px;
+  background: linear-gradient(180deg, #651bae 10.71%, #000 126.79%);
+  padding: 10px 15px;
+  border: 0px;
+}
+.contactBanner .section-heading h2 {
+  margin-bottom: 3rem;
+  position: relative;
+}
+.contactBanner .section-heading h2::after {
+  position: absolute;
+  width: 30%;
+  height: 4px;
+  content: "";
+  background: #651bae;
+  transform: translateX(-55%);
+  left: 50%;
+  bottom: -10px;
+}
+#navbarBelow {
+  background-color: transparent !important;
+  position: absolute !important;
+  width: 100% !important;
+  z-index: 2;
+}
+@media (max-width: 991px) {
+  .contactBanner {
+    padding: 6rem 0 0;
+  }
+  .contactBanner .form-container {
+    transform: translateY(55px);
+    margin: auto;
+  }
+  .contactBanner .section-heading h2 {
+    margin-bottom: 0rem;
+  }
+  .contactBanner .form-container input[type="text"] {
+    padding: 7px 12px;
+  }
+  .contactBanner .form-container h2 {
+    font-size: 24px;
+  }
+  .contactBanner .form-container input[type="submit"] {
+    padding: 8px 20px;
+}
+}
+#rc-anchor-container {
+  background: transparent !important;
+}

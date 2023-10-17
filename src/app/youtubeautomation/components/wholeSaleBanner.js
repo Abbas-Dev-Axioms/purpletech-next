@@ -3,6 +3,7 @@ import "../../Styles/WholeSaleBanner/wholeSaleBanner.css";
 import Particles from "react-particles";
 import { loadFull } from "tsparticles";
 import React, { useCallback } from "react";
+import ModalForm from "@/app/Common Components/ModalForm";
 
 function WholeSaleBanner() {
   const particlesInit = useCallback(async (engine) => {
@@ -148,7 +149,8 @@ function WholeSaleBanner() {
                 </p>
               </div>
               <div className="text-center">
-                <button className="consult-btn">
+                <button className="consult-btn" type="button" data-bs-toggle="modal"
+                data-bs-target="#exampleModal">
                   SCHEDULE A FREE CONSULTATION
                 </button>
                 <img
