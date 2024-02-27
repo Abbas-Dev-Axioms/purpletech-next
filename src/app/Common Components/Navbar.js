@@ -69,8 +69,38 @@ function Navbar() {
                   aria-labelledby="navbarDropdownMenuLink"
                 >
                   <li>
-                    <a className="dropdown-item" href="#!">
-                      Web Development
+                    <a className="dropdown-item" href="/amazonwholesale">
+                    Amazon Wholesale
+                    </a>
+                  </li>
+                  <li>
+                    <a className="dropdown-item" href="/businesssolution">
+                    Business Solution
+                    </a>
+                  </li>
+                  <li>
+                    <a className="dropdown-item" href="/digitalmarketing">
+                    Digital Marketing
+                    </a>
+                  </li>
+                  <li>
+                    <a className="dropdown-item" href="/logodesign">
+                    Logo Design
+                    </a>
+                  </li>
+                  <li>
+                    <a className="dropdown-item" href="/shopifydropshiping">
+                    Shopify Dropshiping
+                    </a>
+                  </li>
+                  <li>
+                    <a className="dropdown-item" href="/tiktokautomation">
+                    Tiktok Automation
+                    </a>
+                  </li>
+                  <li>
+                    <a className="dropdown-item" href="/youtubeautomation">
+                    Youtube Automation
                     </a>
                   </li>
                 </ul>
@@ -86,13 +116,53 @@ function Navbar() {
                 >
                   Services
                 </a>
-                <ul
+                 <ul
                   className="dropdown-menu"
                   aria-labelledby="navbarDropdownMenuLink"
                 >
                   <li>
-                    <a className="dropdown-item" href="#!">
-                      Web Development
+                    <a className="dropdown-item" href="/amazonwholesale">
+                    Amazon Wholesale
+                    </a>
+                  </li>
+                  <li>
+                    <a className="dropdown-item" href="/businesssolution">
+                    Business Solution
+                    </a>
+                  </li>
+                  <li>
+                    <a className="dropdown-item" href="/digitalmarketing">
+                    Digital Marketing
+                    </a>
+                  </li>
+                  <li>
+                    <a className="dropdown-item" href="/logodesign">
+                    Logo Design
+                    </a>
+                  </li>
+                  <li>
+                    <a className="dropdown-item" href="/shopifydropshiping">
+                    Shopify Dropshiping
+                    </a>
+                  </li>
+                  <li>
+                    <a className="dropdown-item" href="/tiktokautomation">
+                    Tiktok Automation
+                    </a>
+                  </li>
+                  <li>
+                    <a className="dropdown-item" href="/youtubeautomation">
+                    Youtube Automation
+                    </a>
+                  </li>
+                  <li>
+                    <a className="dropdown-item" href="/getaquote">
+                    Get A Quote
+                    </a>
+                  </li>
+                  <li>
+                    <a className="dropdown-item" href="/contactus">
+                    Contact Us
                     </a>
                   </li>
                 </ul>
