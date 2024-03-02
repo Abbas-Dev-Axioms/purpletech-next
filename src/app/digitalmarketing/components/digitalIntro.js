@@ -14,7 +14,7 @@ function DigitalIntro() {
             </div>
           </div>
           <div className="col-lg-9">
-            <p className="text-center grey-text">
+            <p className="text-center grey-text fw-semibold">
               Describe your logo design service, highlighting your expertise,
               commitment to quality, and the importance of a strong brand
               identity.

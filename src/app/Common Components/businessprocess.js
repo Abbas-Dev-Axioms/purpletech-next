@@ -11,14 +11,14 @@ function Businessprocess() {
               <h2 className="heading text-center mb-3">
                 BUSINESS PROCESS OUTSOURCING
               </h2>
-              <p className="subtitle text-center">
+              <p className="subtitle-extra text-center">
                 Identify, Improve, Optimize
               </p>
             </div>
           </div>
           <div className="col-lg-9">
             <div className="processCard text-center">
-              <p className="mb-5">
+              <p className="mb-5 processCard-item">
                 At The Purple Tech our team of experts utilizes a mix of highly
                 skilled resources, lean process and bespoke strategy to offer a
                 one-stop Business Process Outsourcing (BPO) solution.

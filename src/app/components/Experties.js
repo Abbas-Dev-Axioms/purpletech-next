@@ -29,64 +29,74 @@ function Experties() {
         </div>
         <div className="container">
           <div className="row justify-content-center">
-            <div className="col-xxl-3 col-xl-4 col-lg-4 col-md-6 col-sm-8 col-10">
-              <div className="ExperinceCard">
-                <div className="imageWrapper mx-3 mb-5">
-                <img
-                  src="/Images/HomePage/Experties/Design-and-development 1.png"
-                  width="100%"
-                />
+            <div className="col-xxl-10">
+              <div className="row justify-content-center">
+                <div className="col-xxl-4 col-xl-4 col-lg-4 col-md-6 col-sm-8 col-10">
+                  <div className="ExperinceCard">
+                    <div className="imageWrapper mx-3 mb-5">
+                      <img
+                        src="/Images/HomePage/Experties/Design-and-development 1.png"
+                        width="100%"
+                      />
+                    </div>
+                    <h6 className="px-3 card-heading mb-4">
+                      DESIGN & DEVELOPMENT
+                    </h6>
+                    <ul className="services">
+                      <li>Logo Design</li>
+                      <li>Marketing Design</li>
+                      <li>Video Animation</li>
+                      <li>Web Development</li>
+                      <li>App Development</li>
+                      <li>Real-time Visualization</li>
+                    </ul>
+                    <a className="explore-btn">Explore</a>
+                  </div>
                 </div>
-                <h6 className="px-3 card-heading mb-4">DESIGN & DEVELOPMENT</h6>
-                <ul className="services">
-                  <li>Logo Design</li>
-                  <li>Marketing Design</li>
-                  <li>Video Animation</li>
-                  <li>Web Development</li>
-                  <li>App Development</li>
-                  <li>Real-time Visualization</li>
-                </ul>
-                <a className="explore-btn">Explore</a>
-              </div>
-            </div>
-            <div className="col-xxl-3 col-xl-4 col-lg-4  col-md-6 col-sm-8 col-10">
-              <div className="ExperinceCard">
-              <div className="imageWrapper mx-3 mb-5">
-                <img
-                  src="/Images/HomePage/Experties/Digital-marketing 1.png"
-                  width="100%"
-                />
+                <div className="col-xxl-4 col-xl-4 col-lg-4  col-md-6 col-sm-8 col-10">
+                  <div className="ExperinceCard">
+                    <div className="imageWrapper mx-3 mb-5">
+                      <img
+                        src="/Images/HomePage/Experties/Digital-marketing 1.png"
+                        width="100%"
+                      />
+                    </div>
+                    <h6 className="px-3 card-heading mb-4">
+                      Digital Marketing
+                    </h6>
+                    <ul className="services mb-4">
+                      <li>Search Engine Optimization</li>
+                      <li>Social Media Marketing</li>
+                      <li>Lead Genration</li>
+                      <li>PPC Campaigns</li>
+                      <li>GDN Advertisting</li>
+                      <li>Amazon Marketing</li>
+                    </ul>
+                    <a className="explore-btn">Explore</a>
+                  </div>
                 </div>
-                <h6 className="px-3 card-heading mb-4">Digital Marketing</h6>
-                <ul className="services mb-4">
-                  <li>Search Engine Optimization</li>
-                  <li>Social Media Marketing</li>
-                  <li>Lead Genration</li>
-                  <li>PPC Campaigns</li>
-                  <li>GDN Advertisting</li>
-                  <li>Amazon Marketing</li>
-                </ul>
-                <a className="explore-btn">Explore</a>
-              </div>
-            </div>
-            <div className="col-xxl-3 col-xl-4 col-lg-4 col-md-6 col-sm-8 col-10">
-              <div className="ExperinceCard">
-              <div className="imageWrapper mx-3 mb-5">
-                <img
-                  src="/Images/HomePage/Experties/Biussiness-Solution 1.png"
-                  width="100%"
-                />
+                <div className="col-xxl-4 col-xl-4 col-lg-4 col-md-6 col-sm-8 col-10">
+                  <div className="ExperinceCard">
+                    <div className="imageWrapper mx-3 mb-5">
+                      <img
+                        src="/Images/HomePage/Experties/Biussiness-Solution 1.png"
+                        width="100%"
+                      />
+                    </div>
+                    <h6 className="px-3 card-heading mb-4">
+                      DESIGN & DEVELOPMENT
+                    </h6>
+                    <ul className="services">
+                      <li>Logo Design</li>
+                      <li>Marketing Design</li>
+                      <li>Video Animation</li>
+                      <li>Web Development</li>
+                      <li>App Development</li>
+                      <li>Real-time Visualization</li>
+                    </ul>
+                    <a className="explore-btn">Explore</a>
+                  </div>
                 </div>
-                <h6 className="px-3 card-heading mb-4">DESIGN & DEVELOPMENT</h6>
-                <ul className="services">
-                  <li>Logo Design</li>
-                  <li>Marketing Design</li>
-                  <li>Video Animation</li>
-                  <li>Web Development</li>
-                  <li>App Development</li>
-                  <li>Real-time Visualization</li>
-                </ul>
-                <a className="explore-btn">Explore</a>
               </div>
             </div>
           </div>

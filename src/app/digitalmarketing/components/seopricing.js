@@ -14,7 +14,7 @@ function SeoPricing() {
             </div>
           </div>
           <div className="col-8">
-            <p className="grey-text text-center">
+            <p className="grey-text text-center fw-semibold">
               Our experts will analyze your website, generate a report, and
               assist you with the best-suited SEO packages for your brand.
             </p>

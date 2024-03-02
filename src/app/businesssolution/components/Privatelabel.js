@@ -21,7 +21,7 @@ function Privatelabel() {
                 <h3>lorem Ipsum</h3>
               </div>
               <div className="content-text">
-                <p className="grey-text">
+                <p className="darkgrey-text">
                   Lorem ipsum dolor sit amet consectetur. Aenean fames arcu eget
                   fermentum aliquam. Ac tempus feugiat odio adipiscing arcu mi
                   ac. Pellentesque vel tellus id ipsum metus elit et rhoncus
@@ -50,7 +50,7 @@ function Privatelabel() {
                 <h3>lorem Ipsum</h3>
               </div>
               <div className="content-text">
-                <p className="grey-text">
+                <p className="darkgrey-text">
                   Lorem ipsum dolor sit amet consectetur. Aenean fames arcu eget
                   fermentum aliquam. Ac tempus feugiat odio adipiscing arcu mi
                   ac. Pellentesque vel tellus id ipsum metus elit et rhoncus

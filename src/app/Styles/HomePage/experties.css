@@ -8,8 +8,9 @@
   background-color: #651bae;
 }
 .subtitle {
-  color: #474748;
+  color: #9ba1ae;
   font-weight: 500;
+  position: relative;
 }
 .experties .ExperinceCard {
   border-radius: 16px;
@@ -41,7 +42,7 @@
   position: absolute;
   left: 0.2rem;
   top: 0;
-  background: url(/public/Images/HomePage/Experties/pointer\ 1.png);
+  background: url(/Images/HomePage/Experties/pointer\ 1.png);
   background-size: contain;
   background-position: center;
 }

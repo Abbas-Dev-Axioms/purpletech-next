@@ -15,7 +15,7 @@ function LogoWebDev() {
           </div>
         </div>
         <div className="row flex-md-row-reverse mb-4 justify-content-center">
-          <div className="col-xl-3 col-lg-4 offset-lg-2 col-md-5 offset-md-1 col-8">
+          <div className="col-xl-3 col-lg-4 offset-lg-2 col-md-5 offset-md-1 col-8 mb-3">
             <img
               src="/Images/LogoDesign/WebDevelopment/webDev1.png"
               className="img-fluid"
@@ -36,7 +36,7 @@ function LogoWebDev() {
             </div>
           </div>
         </div>
-        <div className="row mb-4 justify-content-center">
+        <div className="row mb-4 mt-4 justify-content-center">
           <div className="col-xl-3 col-lg-4 col-md-5 offset-md-0 col-8">
             <img
               src="/Images/LogoDesign/WebDevelopment/webDev2.png"
@@ -58,7 +58,7 @@ function LogoWebDev() {
             </div>
           </div>
         </div>
-        <div className="row flex-md-row-reverse mb-4 justify-content-center">
+        <div className="row flex-md-row-reverse mb-4 mt-4 justify-content-center">
           <div className="col-xl-3 col-lg-4 offset-lg-2 col-md-5 offset-md-1 col-8">
             <img
               src="/Images/LogoDesign/WebDevelopment/webDev3.png"
@@ -80,7 +80,7 @@ function LogoWebDev() {
             </div>
           </div>
         </div>
-        <div className="row mb-4 justify-content-center">
+        <div className="row mb-4 mt-4 justify-content-center">
           <div className="col-xl-3 col-lg-4 col-md-5 offset-md-0 col-8">
             <img
               src="/Images/LogoDesign/WebDevelopment/webDev4.png"

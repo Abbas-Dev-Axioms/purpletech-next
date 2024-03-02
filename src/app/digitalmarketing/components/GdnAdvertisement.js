@@ -13,7 +13,7 @@ function GdnAdvertisement() {
               </h2>
             </div>
           </div>
-          <div className="col-xl-3 col-lg-3 col-md-6 mb-3 complexAnimationleft">
+          <div className="col-xl-3 col-lg-3 col-md-6 mb-3 ">
             <div className="gdnCard">
               <img
                 className="img-fluid"

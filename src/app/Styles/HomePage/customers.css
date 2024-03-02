@@ -4,6 +4,7 @@
   background-color: white;
 }
 .customer-card {
+  padding: 20px 0;
   background-image: url(/Images/HomePage/Clients/bannerr\ 1.png);
 }
 .customers .customer-card .swiper-slide img {

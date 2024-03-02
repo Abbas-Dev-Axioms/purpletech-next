@@ -16,7 +16,7 @@ function WhySeo() {
             </div>
           </div>
           <div className="col-lg-9">
-            <p className="text-center grey-text mb-3">
+            <p className="text-center fw-semibold grey-text mb-3">
               SEO services to make your presence known.
             </p>
           </div>

@@ -13,6 +13,8 @@ function WhiteLabel() {
             </div>
           </div>
         </div>
+        <div className="row justify-content-center">
+          <div className="col-lg-11">
         <div className="row justify-content-center mb-5">
           <div className="col-lg-4 col-md-6">
             <div className="amazon-card">
@@ -26,7 +28,7 @@ function WhiteLabel() {
                 <h3>Lorem ipsum</h3>
               </div>
               <div className="amazon-contant">
-                <p className="grey-text">
+                <p className="darkgrey-text">
                   Lorem ipsum dolor sit amet consectetur. Aenean fames arcu eget
                   fermentum aliquam. Ac tempus feugiat odio adipiscing arcu mi
                   ac. Pellentesque vel tellus id ipsum metus elit et rhoncus
@@ -47,7 +49,7 @@ function WhiteLabel() {
                 <h3>Lorem ipsum</h3>
               </div>
               <div className="amazon-contant">
-                <p className="grey-text">
+                <p className="darkgrey-text">
                   Lorem ipsum dolor sit amet consectetur. Aenean fames arcu eget
                   fermentum aliquam. Ac tempus feugiat odio adipiscing arcu mi
                   ac. Pellentesque vel tellus id ipsum metus elit et rhoncus
@@ -68,7 +70,7 @@ function WhiteLabel() {
                 <h3>Lorem ipsum</h3>
               </div>
               <div className="amazon-contant">
-                <p className="grey-text">
+                <p className="darkgrey-text">
                   Lorem ipsum dolor sit amet consectetur. Aenean fames arcu eget
                   fermentum aliquam. Ac tempus feugiat odio adipiscing arcu mi
                   ac. Pellentesque vel tellus id ipsum metus elit et rhoncus
@@ -91,7 +93,7 @@ function WhiteLabel() {
                 <h3>Lorem ipsum</h3>
               </div>
               <div className="amazon-contant">
-                <p className="grey-text">
+                <p className="darkgrey-text">
                   Lorem ipsum dolor sit amet consectetur. Aenean fames arcu eget
                   fermentum aliquam. Ac tempus feugiat odio adipiscing arcu mi
                   ac. Pellentesque vel tellus id ipsum metus elit et rhoncus
@@ -100,6 +102,8 @@ function WhiteLabel() {
               </div>
               <a className="explore-btn active d-inline">Learn More</a>
             </div>
+          </div>
+        </div>
           </div>
         </div>
       </div>

@@ -10,7 +10,7 @@ function WholeSaleSteps() {
               <h2 className="heading mb-4">
                 <span>Lorem Ipsum</span>
               </h2>
-              <p className="gray-text">
+              <p className="darkgrey-text fw-semibold">
                 Lorem ipsum dolor sit amet consectetur. Aenean fames arcu eget
                 fermentum aliquam. Ac tempus feugiat odio adipiscing arcu mi ac.
                 Pellentesque vel tellus id ipsum metus elit et rhoncus mauris.

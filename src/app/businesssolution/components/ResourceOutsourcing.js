@@ -25,7 +25,7 @@ function ResourceOutsourcing() {
             </div>
           </div>
           <div className="col-lg-9 mb-4">
-            <p className="grey-text text-center">
+            <p className="darkgrey-text text-center fw-semibold">
               Lorem ipsum dolor sit amet consectetur. Aenean fames arcu eget
               fermentum aliquam. Ac tempus feugiat odio adipiscing arcu mi ac.
               Pellentesque vel tellus id ipsum metus elit et rhoncus mauris. Et

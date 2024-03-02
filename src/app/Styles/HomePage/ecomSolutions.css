@@ -19,6 +19,7 @@
 
 .ecom-Card {
   position: relative;
+  height: 350px;
 }
 
 .ecom-Card::before {
@@ -52,7 +53,7 @@
   top: 75%;
   transition: .3s ease-in-out;
   left: 50%;
-  width: 100%;
+  width: 188px;
   transform: translate(-50%, 0);
 }
 
@@ -103,7 +104,7 @@
   transform: scaleX(-1);
 }
 .ecom-swiper-card-container {
-  padding: 0 2rem;
+  padding: 0 .5rem;
 }
 @media (max-width:1400px) and (min-width: 991px) {
   .ecom-Card .ecom-title {

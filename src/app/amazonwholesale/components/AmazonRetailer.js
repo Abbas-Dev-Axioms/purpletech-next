@@ -23,7 +23,7 @@ function AmazonRetailer() {
             </div>
           </div>
           <div className="col-lg-7 mb-5">
-            <p className="grey-text text-center">
+            <p className="darkgrey-text fw-semibold text-center">
               Lorem ipsum dolor sit amet consectetur. Aenean fames arcu eget
               fermentum aliquam. Ac tempus feugiat odio adipiscing arcu mi ac.
               Pellentesque vel tellus id ipsum metus elit et rhoncus mauris. Et
@@ -40,7 +40,7 @@ function AmazonRetailer() {
                 </h3>
               </div>
               <div className="content-text mb-5">
-                <p className="grey-text">
+                <p className="grey-text fw-semibold">
                   Lorem ipsum dolor sit amet consectetur. Aenean fames arcu eget
                   fermentum aliquam. Ac tempus feugiat odio adipiscing arcu mi
                   ac. Pellentesque vel tellus id ipsum metus elit et rhoncus

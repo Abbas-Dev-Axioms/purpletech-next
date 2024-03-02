@@ -23,7 +23,7 @@ function CrmSales() {
             </div>
           </div>
           <div className="col-lg-8">
-            <p className="grey-text text-center">
+            <p className="Branding fw-semibold text-center darkgrey-text">
               Lorem ipsum dolor sit amet consectetur. Aenean fames arcu eget
               fermentum aliquam. Ac tempus feugiat odio adipiscing arcu mi ac.
               Pellentesque vel tellus id ipsum metus elit et rhoncus mauris. Et
@@ -47,7 +47,7 @@ function CrmSales() {
                         <h3>lorem Ipsum</h3>
                       </div>
                       <div className="content-text">
-                        <p className="grey-text">
+                        <p className="darkgrey-text">
                           Lorem ipsum dolor sit amet consectetur. Aenean fames
                           arcu eget fermentum aliquam. Ac tempus feugiat odio
                           adipiscing arcu mi ac. Pellentesque vel tellus id
@@ -70,7 +70,7 @@ function CrmSales() {
                         <h3>lorem Ipsum</h3>
                       </div>
                       <div className="content-text">
-                        <p className="grey-text">
+                        <p className="darkgrey-text">
                           Lorem ipsum dolor sit amet consectetur. Aenean fames
                           arcu eget fermentum aliquam. Ac tempus feugiat odio
                           adipiscing arcu mi ac. Pellentesque vel tellus id
@@ -93,7 +93,7 @@ function CrmSales() {
                         <h3>lorem Ipsum</h3>
                       </div>
                       <div className="content-text">
-                        <p className="grey-text">
+                        <p className="darkgrey-text">
                           Lorem ipsum dolor sit amet consectetur. Aenean fames
                           arcu eget fermentum aliquam. Ac tempus feugiat odio
                           adipiscing arcu mi ac. Pellentesque vel tellus id
@@ -116,7 +116,7 @@ function CrmSales() {
                         <h3>lorem Ipsum</h3>
                       </div>
                       <div className="content-text">
-                        <p className="grey-text">
+                        <p className="darkgrey-text">
                           Lorem ipsum dolor sit amet consectetur. Aenean fames
                           arcu eget fermentum aliquam. Ac tempus feugiat odio
                           adipiscing arcu mi ac. Pellentesque vel tellus id

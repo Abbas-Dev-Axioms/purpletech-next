@@ -142,7 +142,7 @@ function WholeSaleBanner() {
                     Budget, and Profitable by the 1st Month of Launch.
                   </span>
                 </h2>
-                <p className="grey-text">
+                <p className="darkgrey-text fw-semibold">
                   Our unique approach propriety research and fulfillment
                   strategies towards the FBA Automation Model has scaled 300+
                   Amazon Clients, Curious?

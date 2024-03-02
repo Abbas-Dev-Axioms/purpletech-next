@@ -22,7 +22,7 @@ function EcomSolutions() {
               <div className="section-heading mb-3">
                 <h2 className="heading">Ecommerce Solutions</h2>
               </div>
-              <p className="">
+              <p className="color-grey lh-1">
                 From start-ups to established brands, our ecommerce solutions
                 are tailored to fuel your business growth. With our expertise,
                 we offer practical and innovative strategies designed to fit
@@ -35,10 +35,10 @@ function EcomSolutions() {
           </div>
           <div className="col-xxl-9 col-xl-9">
           <div className="row">
-          <div className="smallCard col-1 d-flex align-items-center justify-content-end">
+          <div className="smallCard col-1 d-flex d-sm-none col-md-0 col-lg-1 d-md-flex align-items-center justify-content-end">
             <button className="swiper-btn" onClick={() => swiperRef.current?.slidePrev()}><img height="30px" className="prev" src="/Images/HomePage/EcomSolutions/slide 1.png"/></button>
           </div>
-          <div className="smallCard col-10">
+          <div className="smallCard col-10 col-sm-12 col-md-10">
             <Swiper
               spaceBetween={0}
               slidesPerView={1}
@@ -132,7 +132,7 @@ function EcomSolutions() {
               </SwiperSlide>
             </Swiper>
           </div>
-          <div className="smallCard col-1 d-flex align-items-center">
+          <div className="smallCard col-1 d-flex d-sm-none col-md-0 col-lg-1 d-md-flex align-items-center">
             <button className="swiper-btn" onClick={() => swiperRef.current?.slideNext()}><img height="30px" className="next" src="/Images/HomePage/EcomSolutions/slide 1.png"/></button>
           </div>
           </div>

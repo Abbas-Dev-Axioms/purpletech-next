@@ -21,7 +21,8 @@
     color: #6634B9;
 }
 .grey-text {
-    color: #AEB3BD;
+    color: #3f3f3f;
+    font-weight: 500;
 }
 .what-we-do .purpose-container {
     background: url(/Images/HomePage/What-we-do/luminsity\ 1.png), linear-gradient(180deg, #8346BE 0%, rgba(217, 217, 217, 0.00) 135.57%);
@@ -56,5 +57,6 @@
 .purpose-container .purpose-card p {
     font-size: 14px;
     text-align: center;
-    color: #BCC0C9;
+    color: #3f3f3f;
+    font-weight: 500;
 }

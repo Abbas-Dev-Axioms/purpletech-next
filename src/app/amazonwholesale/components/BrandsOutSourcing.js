@@ -8,7 +8,7 @@ import "../../Styles/WholeSaleBanner/brand.css";
 import "swiper/css";
 import "swiper/css/pagination";
 import "swiper/css/navigation";
-import { Autoplay } from "swiper/modules";
+import { Autoplay, Pagination } from "swiper/modules";
 
 function ResourceOutsourcing() {
   const swiperRef = useRef();
@@ -56,7 +56,8 @@ function ResourceOutsourcing() {
               //   delay: 2500,
               //   disableOnInteraction: false,
               // }}
-              modules={[Autoplay]}
+              modules={[Autoplay,Pagination]}
+              pagination={{ clickable: true }}
               onBeforeInit={(swiper) => {
                 swiperRef.current = swiper;
               }}

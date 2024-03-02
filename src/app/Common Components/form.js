@@ -11,7 +11,9 @@ function Form() {
                 <h2 className="heading mb-4 text-center">
                   Ready to upgrade your business experience?
                 </h2>
-                <p className="subtitle text-center">Identify, Improve, Optimize</p>
+                <p className="subtitle-extra text-center">
+                  Identify, Improve, Optimize
+                </p>
               </div>
             </div>
             <div className="col-lg-6 col-md-10">
@@ -26,17 +28,17 @@ function Form() {
                   <input type="text" required placeholder="EMAIL ADDRESES" />
                 </div>
                 <div className="textField-container">
-                    <textarea placeholder="Project details"/>
+                  <textarea placeholder="Project details" />
                 </div>
                 <div className="form-group">
-                    <input className="submit-btn" type="submit"/>
+                  <input className="submit-btn" type="submit" />
                 </div>
               </div>
             </div>
             <div className="col-lg-6">
-                <div className="textField-container outside">
-                    <textarea placeholder="Project details"/>
-                </div>
+              <div className="textField-container outside">
+                <textarea placeholder="Project details" />
+              </div>
             </div>
           </div>
         </form>

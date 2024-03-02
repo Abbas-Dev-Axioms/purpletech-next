@@ -11,7 +11,9 @@ function WholeSaleIntro() {
                 Automate Your Investment Porfolio that builds a{" "}
                 <span>Sustainable & scalable</span> Cash-Flow
               </h2>
-              <p className="color-heading-purple text-center">Let your money Works for you</p>
+              <p className="color-heading-purple text-center fw-semibold">
+                Let your money Works for you
+              </p>
             </div>
           </div>
         </div>
@@ -20,20 +22,18 @@ function WholeSaleIntro() {
             <div className="amazon-card">
               <div className="img-wrapper mb-3">
                 <img
-                  src="/Images/AmazonWholeSale/wholeSaleIntro/Digital real estate.png"
+                  src="/Images/AmazonWholeSale/wholeSaleIntro/Digital real estate1.png"
                   className="img-fluid"
                   width="60px"
                 />
               </div>
               <div className="amazon-heading mb-2">
-                <h3 className="color-heading-purple">Lorem ipsum</h3>
+                <h3 className="color-heading-purple">Digital Real estate</h3>
               </div>
               <div className="amazon-contant">
                 <p className="grey-text">
-                  Lorem ipsum dolor sit amet consectetur. Aenean fames arcu eget
-                  fermentum aliquam. Ac tempus feugiat odio adipiscing arcu mi
-                  ac. Pellentesque vel tellus id ipsum metus elit et rhoncus
-                  mauris. Et donec etiam consectetur felis sed tristique.
+                  An Amazon FBA Business is high valued digital asset which can
+                  easily be Flipped / Sold up to 35X of your monthly net Profit
                 </p>
               </div>
             </div>
@@ -42,20 +42,19 @@ function WholeSaleIntro() {
             <div className="amazon-card">
               <div className="img-wrapper mb-3">
                 <img
-                  src="/Images/AmazonWholeSale/wholeSaleIntro/Digital real estate.png"
+                  src="/Images/AmazonWholeSale/wholeSaleIntro/Digital real estate2.png"
                   className="img-fluid"
                   width="60px"
                 />
               </div>
               <div className="amazon-heading mb-2">
-                <h3 className="color-heading-purple">Lorem ipsum</h3>
+                <h3 className="color-heading-purple">Fully automated</h3>
               </div>
               <div className="amazon-contant">
                 <p className="grey-text">
-                  Lorem ipsum dolor sit amet consectetur. Aenean fames arcu eget
-                  fermentum aliquam. Ac tempus feugiat odio adipiscing arcu mi
-                  ac. Pellentesque vel tellus id ipsum metus elit et rhoncus
-                  mauris. Et donec etiam consectetur felis sed tristique.
+                  Combination of our AI Product Research and Custom Operations
+                  Team that runs entire business for you. So you don’t have to
+                  work
                 </p>
               </div>
             </div>
@@ -64,20 +63,18 @@ function WholeSaleIntro() {
             <div className="amazon-card">
               <div className="img-wrapper mb-3">
                 <img
-                  src="/Images/AmazonWholeSale/wholeSaleIntro/Digital real estate.png"
+                  src="/Images/AmazonWholeSale/wholeSaleIntro/Digital real estate3.png"
                   className="img-fluid"
                   width="60px"
                 />
               </div>
               <div className="amazon-heading mb-2">
-                <h3 className="color-heading-purple">Lorem ipsum</h3>
+                <h3 className="color-heading-purple">Passive income</h3>
               </div>
               <div className="amazon-contant">
                 <p className="grey-text">
-                  Lorem ipsum dolor sit amet consectetur. Aenean fames arcu eget
-                  fermentum aliquam. Ac tempus feugiat odio adipiscing arcu mi
-                  ac. Pellentesque vel tellus id ipsum metus elit et rhoncus
-                  mauris. Et donec etiam consectetur felis sed tristique.
+                  Amazon FBA is a whole new source of Passive Income, and an
+                  opportunity to diversity your investments.
                 </p>
               </div>
             </div>
@@ -86,20 +83,20 @@ function WholeSaleIntro() {
             <div className="amazon-card">
               <div className="img-wrapper mb-3">
                 <img
-                  src="/Images/AmazonWholeSale/wholeSaleIntro/Digital real estate.png"
+                  src="/Images/AmazonWholeSale/wholeSaleIntro/Digital real estate4.png"
                   className="img-fluid"
                   width="60px"
                 />
               </div>
               <div className="amazon-heading mb-2">
-                <h3 className="color-heading-purple">Lorem ipsum</h3>
+                <h3 className="color-heading-purple">
+                  Wholesale FBA Brand Reselling
+                </h3>
               </div>
               <div className="amazon-contant">
                 <p className="grey-text">
-                  Lorem ipsum dolor sit amet consectetur. Aenean fames arcu eget
-                  fermentum aliquam. Ac tempus feugiat odio adipiscing arcu mi
-                  ac. Pellentesque vel tellus id ipsum metus elit et rhoncus
-                  mauris. Et donec etiam consectetur felis sed tristique.
+                  A fully sustainable and legitimate business model from day 1,
+                  so you don’t have to be concerned about TOS risks.
                 </p>
               </div>
             </div>

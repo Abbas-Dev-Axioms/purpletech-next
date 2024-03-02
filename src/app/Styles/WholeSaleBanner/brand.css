@@ -1,3 +1,6 @@
 .brand {
     padding: 50px 0;
 }
+.brand .swiper {
+    padding-bottom: 36px;
+}

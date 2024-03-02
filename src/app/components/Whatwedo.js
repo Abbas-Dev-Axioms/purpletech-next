@@ -11,7 +11,7 @@ function Whatwedo() {
               <div className="underline-heading mb-3 text-center">
                 <h3 className="color-heading-purple heading">What We Do</h3>
               </div>
-              <p className="grey-text text-center">
+              <p className="grey-text text-center fw-medium">
                 Our services are defined by quality and commitment.
               </p>
             </div>
